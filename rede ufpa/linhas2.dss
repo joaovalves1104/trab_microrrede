@@ -1,0 +1,152 @@
+
+
+!linhas do alimentador II da UFPA (Básico II)
+
+
+new line.AL200201 phases=3 bus1=CabineDeMedicao bus2=201
+~ geometry =200201
+~ length=18.8280 units=m
+
+new line.AL201202 phases=3 bus1=201 bus2=202
+~ geometry=201202
+~ length= 32.3480 units=m
+
+new line.AL202203 phases=3 bus1=202 bus2=203
+~ geometry=202203
+~ length= 36.3781 units=m
+
+new line.AL203204 phases=3 bus1=203 bus2=204
+~ geometry=203204
+~ length= 40.3003 units=m
+
+new line.AL204204a phases=3 bus1=204 bus2=204a
+~ geometry=204204a
+~ length= 20 units=m
+
+new line.AL204205 phases=3 bus1=204 bus2=205
+~ geometry=204205
+~ length= 33.6780 units=m
+
+new line.AL205206 phases=3 bus1=205 bus2=206
+~ geometry=205206
+~ length= 29.6994 units=m
+
+new line.AL206207 phases=3 bus1=206 bus2=207
+~ geometry=206207
+~ length= 25.1373 units=m
+
+new line.AL207208 phases=3 bus1=207 bus2=208
+~ geometry=207208
+~ length= 28.5792 units=m
+
+new line.AL208209 phases=3 bus1=208 bus2=209
+~ geometry=208209
+~ length= 28.3058 units=m
+
+new line.AL209210 phases=3 bus1=209 bus2=210
+~ geometry=209210
+~ length= 50.1527 units=m
+
+new line.AL210211 phases=3 bus1=210 bus2=211
+~ geometry=210211
+~ length= 13.3181 units=m
+
+new line.AL206212 phases=3 bus1=206. bus2=212
+~ geometry=206212
+~ length= 14.2837 units=m
+
+new line.AL212212a phases=3 bus1=212 bus2=212a
+~ geometry=204204a
+~ length= 30 units=m
+
+new line.AL212213 phases=3 bus1=212 bus2=213
+~ geometry=212213
+~ length= 33.4293 units=m
+
+new line.AL213214 phases=3 bus1=213 bus2=214
+~ geometry=213214
+~ length= 31.4172 units=m
+
+new line.AL214215 phases=3 bus1=214 bus2=215
+~ geometry=214215
+~ length= 19.4805 units=m
+
+new line.AL215216 phases=3 bus1=215 bus2=216
+~ geometry=215216
+~ length= 24.3734 units=m
+
+new line.AL216217 phases=3 bus1=216 bus2=217
+~ geometry=216217
+~ length= 36.4036 units=m
+
+new line.AL217218 phases=3 bus1=217 bus2=218
+~ geometry=217218
+~ length= 25.5353 units=m
+
+new line.AL217219 phases=3 bus1=217 bus2=219
+~ geometry=217219
+~ length= 21.3140 units=m
+
+new line.AL219220 phases=3 bus1=219 bus2=220
+~ geometry=219220
+~ length= 33.8756 units=m
+
+new line.AL220221 phases=3 bus1=220 bus2=221
+~ geometry=220221
+~ length= 27.0833 units=m
+
+new line.AL221222 phases=3 bus1=221 bus2=222
+~ geometry=221222
+~ length= 108.9278 units=m
+
+new line.AL221223 phases=3 bus1=221 bus2=223
+~ geometry=221223
+~ length= 20.2361 units=m
+
+new line.AL223224 phases=3 bus1=223 bus2=224
+~ geometry=223224
+~ length= 21.3442 units=m
+
+new line.AL220225 phases=3 bus1=220 bus2=225
+~ geometry=220225
+~ length= 34.3813 units=m
+
+new line.AL225226 phases=3 bus1=225 bus2=226
+~ geometry=225226
+~ length= 40.0856 units=m
+
+new line.AL226227 phases=3 bus1=226 bus2=227
+~ geometry=226227
+~ length= 15.0618 units=m
+
+new line.AL227228 phases=3 bus1=227 bus2=228
+~ geometry=227228
+~ length= 15.5330 units=m
+
+new line.AL228229 phases=3 bus1=228 bus2=229
+~ geometry=228229
+~ length= 21.5362 units=m
+
+new line.AL227230 phases=3 bus1=227 bus2=230
+~ geometry=227230
+~ length= 28.3150 units=m
+
+new line.AL230231 phases=3 bus1=230 bus2=231
+~ geometry=230231
+~ length= 26.6214 units=m
+
+new line.AL231232 phases=3 bus1=231 bus2=232
+~ geometry=231232
+~ length= 41.0974 units=m
+
+new line.AL232233 phases=3 bus1=232 bus2=233
+~ geometry=232233
+~ length= 54.0411 units=m
+
+new line.AL233234 phases=3 bus1=233 bus2=234
+~ geometry=233234
+~ length= 46.9776 units=m
+
+new line.AL233235 phases=3 bus1=233 bus2=235
+~ geometry=233235
+~ length= 65.9850 units=m

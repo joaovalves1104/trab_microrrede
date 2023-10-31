@@ -1,0 +1,132 @@
+New monitor.load4761_voltage element=load.476epl1 terminal=1 mode=0
+New monitor.load4762_voltage element=load.476epl2 terminal=1 mode=0
+New monitor.load4763_voltage element=load.476epl3 terminal=1 mode=0
+New monitor.load4761_power element=load.476epl1 terminal=1 mode=1 ppolar=no
+New monitor.load4762_power element=load.476epl2 terminal=1 mode=1 ppolar=no
+New monitor.load4763_power element=load.476epl3 terminal=1 mode=1 ppolar=no
+
+New monitor.load4851_voltage element=load.485epl1 terminal=1 mode=0
+New monitor.load4852_voltage element=load.485epl2 terminal=1 mode=0
+New monitor.load4853_voltage element=load.485epl3 terminal=1 mode=0
+New monitor.load4851_power element=load.485epl1 terminal=1 mode=1 ppolar=no
+New monitor.load4852_power element=load.485epl2 terminal=1 mode=1 ppolar=no
+New monitor.load4853_power element=load.485epl3 terminal=1 mode=1 ppolar=no
+
+New monitor.load4521_voltage element=load.452epl1 terminal=1 mode=0
+New monitor.load4522_voltage element=load.452epl2 terminal=1 mode=0
+New monitor.load4523_voltage element=load.452epl3 terminal=1 mode=0
+New monitor.load4521_power element=load.452epl1 terminal=1 mode=1 ppolar=no
+New monitor.load4522_power element=load.452epl2 terminal=1 mode=1 ppolar=no
+New monitor.load4523_power element=load.452epl3 terminal=1 mode=1 ppolar=no
+
+New monitor.load4261_voltage element=load.426epl1 terminal=1 mode=0
+New monitor.load4262_voltage element=load.426epl2 terminal=1 mode=0
+New monitor.load4263_voltage element=load.426epl3 terminal=1 mode=0
+New monitor.load4261_power element=load.426epl1 terminal=1 mode=1 ppolar=no
+New monitor.load4262_power element=load.426epl2 terminal=1 mode=1 ppolar=no
+New monitor.load4263_power element=load.426epl3 terminal=1 mode=1 ppolar=no
+
+New monitor.load3521_voltage element=load.352epl1 terminal=1 mode=0
+New monitor.load3522_voltage element=load.352epl2 terminal=1 mode=0
+New monitor.load3523_voltage element=load.352epl3 terminal=1 mode=0
+New monitor.load3521_power element=load.352epl1 terminal=1 mode=1 ppolar=no
+New monitor.load3522_power element=load.352epl2 terminal=1 mode=1 ppolar=no
+New monitor.load3523_power element=load.352epl3 terminal=1 mode=1 ppolar=no
+
+New monitor.load3581_voltage element=load.358epl1 terminal=1 mode=0
+New monitor.load3582_voltage element=load.358epl2 terminal=1 mode=0
+New monitor.load3583_voltage element=load.358epl3 terminal=1 mode=0
+New monitor.load3581_power element=load.358epl1 terminal=1 mode=1 ppolar=no
+New monitor.load3582_power element=load.358epl2 terminal=1 mode=1 ppolar=no
+New monitor.load3583_power element=load.358epl3 terminal=1 mode=1 ppolar=no
+
+New monitor.load3391_voltage element=load.339epl1 terminal=1 mode=0
+New monitor.load3392_voltage element=load.339epl2 terminal=1 mode=0
+New monitor.load3393_voltage element=load.339epl3 terminal=1 mode=0
+New monitor.load3391_power element=load.339epl1 terminal=1 mode=1 ppolar=no
+New monitor.load3392_power element=load.339epl2 terminal=1 mode=1 ppolar=no
+New monitor.load3393_power element=load.339epl3 terminal=1 mode=1 ppolar=no
+
+New monitor.load3101_voltage element=load.310epl1 terminal=1 mode=0
+New monitor.load3102_voltage element=load.310epl2 terminal=1 mode=0
+New monitor.load3103_voltage element=load.310epl3 terminal=1 mode=0
+New monitor.load3101_power element=load.310epl1 terminal=1 mode=1 ppolar=no
+New monitor.load3102_power element=load.310epl2 terminal=1 mode=1 ppolar=no
+New monitor.load3103_power element=load.310epl3 terminal=1 mode=1 ppolar=no
+
+New monitor.load3171_voltage element=load.317epl1 terminal=1 mode=0
+New monitor.load3172_voltage element=load.317epl2 terminal=1 mode=0
+New monitor.load3173_voltage element=load.317epl3 terminal=1 mode=0
+New monitor.load3171_power element=load.317epl1 terminal=1 mode=1 ppolar=no
+New monitor.load3172_power element=load.317epl2 terminal=1 mode=1 ppolar=no
+New monitor.load3173_power element=load.317epl3 terminal=1 mode=1 ppolar=no
+
+New monitor.load3231_voltage element=load.323epl1 terminal=1 mode=0
+New monitor.load3232_voltage element=load.323epl2 terminal=1 mode=0
+New monitor.load3233_voltage element=load.323epl3 terminal=1 mode=0
+New monitor.load3231_power element=load.323epl1 terminal=1 mode=1 ppolar=no
+New monitor.load3232_power element=load.323epl2 terminal=1 mode=1 ppolar=no
+New monitor.load3233_power element=load.323epl3 terminal=1 mode=1 ppolar=no
+
+New monitor.load1021_voltage element=load.102epl1 terminal=1 mode=0
+New monitor.load1022_voltage element=load.102epl2 terminal=1 mode=0
+New monitor.load1023_voltage element=load.102epl3 terminal=1 mode=0
+New monitor.load1021_power element=load.102epl1 terminal=1 mode=1 ppolar=no
+New monitor.load1022_power element=load.102epl2 terminal=1 mode=1 ppolar=no
+New monitor.load1023_power element=load.102epl3 terminal=1 mode=1 ppolar=no
+
+New monitor.load1161_voltage element=load.116epl1 terminal=1 mode=0
+New monitor.load1162_voltage element=load.116epl2 terminal=1 mode=0
+New monitor.load1163_voltage element=load.116epl3 terminal=1 mode=0
+New monitor.load1161_power element=load.116epl1 terminal=1 mode=1 ppolar=no
+New monitor.load1162_power element=load.116epl2 terminal=1 mode=1 ppolar=no
+New monitor.load1163_power element=load.116epl3 terminal=1 mode=1 ppolar=no
+
+New monitor.load1391_voltage element=load.139epl1 terminal=1 mode=0
+New monitor.load1392_voltage element=load.139epl2 terminal=1 mode=0
+New monitor.load1393_voltage element=load.139epl3 terminal=1 mode=0
+New monitor.load1391_power element=load.139epl1 terminal=1 mode=1 ppolar=no
+New monitor.load1392_power element=load.139epl2 terminal=1 mode=1 ppolar=no
+New monitor.load1393_power element=load.139epl3 terminal=1 mode=1 ppolar=no
+
+New monitor.load1321_voltage element=load.132epl1 terminal=1 mode=0
+New monitor.load1322_voltage element=load.132epl2 terminal=1 mode=0
+New monitor.load1323_voltage element=load.132epl3 terminal=1 mode=0
+New monitor.load1321_power element=load.132epl1 terminal=1 mode=1 ppolar=no
+New monitor.load1322_power element=load.132epl2 terminal=1 mode=1 ppolar=no
+New monitor.load1323_power element=load.132epl3 terminal=1 mode=1 ppolar=no
+
+New monitor.load1571_voltage element=load.157epl1 terminal=1 mode=0
+New monitor.load1572_voltage element=load.157epl2 terminal=1 mode=0
+New monitor.load1573_voltage element=load.157epl3 terminal=1 mode=0
+New monitor.load1571_power element=load.157epl1 terminal=1 mode=1 ppolar=no
+New monitor.load1572_power element=load.157epl2 terminal=1 mode=1 ppolar=no
+New monitor.load1573_power element=load.157epl3 terminal=1 mode=1 ppolar=no
+
+New monitor.load2131_voltage element=load.213epl1 terminal=1 mode=0
+New monitor.load2132_voltage element=load.213epl2 terminal=1 mode=0
+New monitor.load2133_voltage element=load.213epl3 terminal=1 mode=0
+New monitor.load2131_power element=load.213epl1 terminal=1 mode=1 ppolar=no
+New monitor.load2132_power element=load.213epl2 terminal=1 mode=1 ppolar=no
+New monitor.load2133_power element=load.213epl3 terminal=1 mode=1 ppolar=no
+
+New monitor.load2111_voltage element=load.211epl1 terminal=1 mode=0
+New monitor.load2112_voltage element=load.211epl2 terminal=1 mode=0
+New monitor.load2113_voltage element=load.211epl3 terminal=1 mode=0
+New monitor.load2111_power element=load.211epl1 terminal=1 mode=1 ppolar=no
+New monitor.load2112_power element=load.211epl2 terminal=1 mode=1 ppolar=no
+New monitor.load2113_power element=load.211epl3 terminal=1 mode=1 ppolar=no
+
+New monitor.load2271_voltage element=load.227epl1 terminal=1 mode=0
+New monitor.load2272_voltage element=load.227epl2 terminal=1 mode=0
+New monitor.load2273_voltage element=load.227epl3 terminal=1 mode=0
+New monitor.load2271_power element=load.227epl1 terminal=1 mode=1 ppolar=no
+New monitor.load2272_power element=load.227epl2 terminal=1 mode=1 ppolar=no
+New monitor.load2273_power element=load.227epl3 terminal=1 mode=1 ppolar=no
+
+New monitor.load2331_voltage element=load.233epl1 terminal=1 mode=0
+New monitor.load2332_voltage element=load.233epl2 terminal=1 mode=0
+New monitor.load2333_voltage element=load.233epl3 terminal=1 mode=0
+New monitor.load2331_power element=load.233epl1 terminal=1 mode=1 ppolar=no
+New monitor.load2332_power element=load.233epl2 terminal=1 mode=1 ppolar=no
+New monitor.load2333_power element=load.233epl3 terminal=1 mode=1 ppolar=no

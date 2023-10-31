@@ -1,0 +1,19 @@
+!Modelagem do Alimentador IV da UFPA (Saúde)
+
+!redirecionar a geometria dos cabos
+redirect geometriadoscabos4.dss
+
+!LINES DO Alimentador
+redirect linhas4.dss
+
+!SE's do alimentador
+redirect trafos4.dss 
+
+!redireciona as curvas de carga
+redirect curvasdecarga4_util.dss
+
+!rediriona as cargas 
+redirect cargas4_util.dss
+
+
+

@@ -1,0 +1,150 @@
+
+/*
+
+//carga do trafo Arquitetura
+ New Load.322l1 Bus1=322b.1.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=4.7026  kvar=2.2792  Vminpu=0.60 daily= Arquitetura1
+ New Load.322l2 Bus1=322b.2.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=4.9224  kvar=1.8956   Vminpu=0.60 daily= Arquitetura2
+ New Load.322l3 Bus1=322b.3.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=4.7641  kvar=0.5782 Vminpu=0.60 daily= Arquitetura3
+ 
+ //carga do trafo Benedito Nunes
+ New Load.204c1 Bus1=204b.1.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=16.1434kvar=9.4864 Vminpu=0.60 daily= Benedito1
+ New Load.204c2 Bus1=204b.2.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=17.1916  kvar=9.7832   Vminpu=0.60 daily= Benedito2
+ New Load.204c3 Bus1=204b.3.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=17.4584  kvar=10.0664 Vminpu=0.60 daily= Benedito3
+ 
+ //carga do trafo CEAMAZON 
+ New Load.477l1 Bus1=477b.1.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=3.819  kvar=1.413  Vminpu=0.60 daily= CEAMAZON1
+ New Load.477l2 Bus1=477b.2.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=2.479  kvar=0.004   Vminpu=0.60 daily= CEAMAZON2
+ New Load.477l3 Bus1=477b.3.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=3.77  kvar=0.336 Vminpu=0.60 daily= CEAMAZON3
+ 
+ //carga do trafo Fisica Pesquisa 
+ New Load.147al1 Bus1=147ab.1.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=10.4552  kvar=1.6814  Vminpu=0.60 daily= FisPesquisa1
+ New Load.147al2 Bus1=147ab.2.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=9.2708  kvar=0.8116   Vminpu=0.60 daily= FisPesquisa2
+ New Load.147al3 Bus1=147ab.3.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=8.946  kvar=1.6996 Vminpu=0.60 daily= FisPesquisa3
+
+ //carga do trafo ICB
+ New Load.465l31 Bus1=465d.1.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=31.4104  kvar=14.3346  Vminpu=0.60 daily= ICB1
+ New Load.465l32 Bus1=465d.2.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=30.2806  kvar=14.8186   Vminpu=0.60 daily= ICB2
+ New Load.465l33 Bus1=465d.3.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=30.8714  kvar=8.6842 Vminpu=0.60 daily= ICB3
+ 
+ //carga do trafo ICED
+ New Load.349l1 Bus1=349b.1.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=5.564  kvar=1.3692  Vminpu=0.60 daily= ICED1
+ New Load.349l2 Bus1=349b.2.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=5.201  kvar=11.7124   Vminpu=0.60 daily= ICED2
+ New Load.349l3 Bus1=349b.3.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=3.924  kvar=6.7998 Vminpu=0.60 daily= ICED3
+
+ //carga do trafo IG
+ New Load.349l1 Bus1=349b.1.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=23.7216  kvar=1.3692  Vminpu=0.60 daily= IG1
+ New Load.349l2 Bus1=349b.2.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=23.9708  kvar=11.7124   Vminpu=0.60 daily= IG2
+ New Load.349l3 Bus1=349b.3.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=19.3172 kvar=6.7998 Vminpu=0.60 daily= IG33
+
+
+
+//carga do trafo ILC
+ New Load.107l1 Bus1=107b.1.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=5.3914  kvar=0.3472  Vminpu=0.60 daily= ILC1
+ New Load.107l2 Bus1=107b.2.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=6.0046 kvar=2.4094  Vminpu=0.60 daily= ILC2
+ New Load.107l3 Bus1=107b.3.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=4.2854  kvar=1.5624 Vminpu=0.60 daily= ICL3
+ 
+ //carga do trafo Lab. Eletrica
+ New Load.340l1 Bus1=340b.1.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=8.133  kvar=2.469  Vminpu=0.60 daily= LABELETRICA1
+ New Load.340l2 Bus1=340b.2.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=4.7026 kvar=3.763  Vminpu=0.60 daily= LABELETRICA2
+ New Load.340l3 Bus1=340b.3.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=7.613  kvar=3.453 Vminpu=0.60 daily= LABELETRICA3
+ 
+ //carga do trafo nutrição
+ New Load.457l11 Bus1=457b.1.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=1.5435 kvar=-0.252  Vminpu=0.60 daily= NUTRICAO1
+ New Load.457l12 Bus1=457b.2.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=1.4196 kvar=1.5435  Vminpu=0.60 daily= NUTRICAO2
+ New Load.457l13 Bus1=457b.3.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=1.7794  kvar=0.7066 Vminpu=0.60 daily= NUTRICAO3
+ 
+ //carga do trafo PROAD
+ New Load.212c11 Bus1=212b.1.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=5.5146 kvar=15.7006  Vminpu=0.60 daily= PROAD1
+ New Load.212c12 Bus1=212b.2.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=13.5954 kvar=3.3698  Vminpu=0.60 daily= PROAD2
+ New Load.212c13 Bus1=212b.3.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=8.5008  kvar=10.6428 Vminpu=0.60 daily= PROAD3
+ 
+  //carga do trafo REITORIA
+ New Load.212c21 Bus1=212c.1.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=27.8152 kvar=2.394 Vminpu=0.60 daily= Reitoria1
+ New Load.212c22 Bus1=212c.2.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=31.206 kvar=3.6848  Vminpu=0.60 daily= Reitoria2
+ New Load.212c23 Bus1=212c.3.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=30.9652  kvar=6.6612 Vminpu=0.60 daily= Reitoria3
+
+*/
+
+
+//carga do trafo  perto do AL2
+ New Load.203c1 Bus1=203b.1.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=4.7026  kvar=2.2792  Vminpu=0.60 daily=curvaperto1
+ New Load.203c2 Bus1=203b.2.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=4.9224  kvar=1.8956   Vminpu=0.60 daily=curvaperto2
+ New Load.203c3 Bus1=203b.3.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=4.7641  kvar=0.5782 Vminpu=0.60 daily=curvaperto3
+
+ 
+ 
+//carga do trafo Benedito Nunes
+ New Load.204c1 Bus1=204b.1.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=16.1434 kvar=9.4864 Vminpu=0.60 daily=curvabenedito1
+ New Load.204c2 Bus1=204b.2.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=17.1916  kvar=9.7832   Vminpu=0.60 daily=curvabenedito2
+ New Load.204c3 Bus1=204b.3.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=17.4584  kvar=10.0664 Vminpu=0.60 daily=curvabenedito3
+
+
+ //carga do trafo vadiao
+ New Load.211c1 Bus1=211b.1.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=1.8172 kvar=-0.252  Vminpu=0.60 daily=curvavadiao1
+ New Load.211c2 Bus1=211b.2.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=1.4196 kvar=1.5435  Vminpu=0.60 daily=curvavadiao2
+ New Load.211c3 Bus1=211b.3.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=1.7794  kvar=0.7066 Vminpu=0.60 daily=curvavadiao3
+
+  //carga do trafo PROAD
+ New Load.212c11 Bus1=212b.1.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=5.5146 kvar=15.7006  Vminpu=0.60 daily=curvaproad1
+ New Load.212c12 Bus1=212b.2.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=13.5954 kvar=3.3698  Vminpu=0.60 daily=curvaproad2
+ New Load.212c13 Bus1=212b.3.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=8.5008  kvar=10.6428 Vminpu=0.60 daily=curvaproad3
+ 
+//carga do trafo REITORIA
+ New Load.212c21 Bus1=212c.1.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=27.8152 kvar=2.394 Vminpu=0.60 daily=curvareitoria1
+ New Load.212c22 Bus1=212c.2.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=31.206 kvar=3.6848  Vminpu=0.60 daily=curvareitoria2
+ New Load.212c23 Bus1=212c.3.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=30.9652  kvar=6.6612 Vminpu=0.60 daily=curvareitoria3
+ 
+ //carga do trafo Ciac
+ New Load.218c1 Bus1=218b.1.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=5.3914  kvar=0.3472  Vminpu=0.60 daily=curvaciac1
+ New Load.218c2 Bus1=218b.2.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=6.0046 kvar=2.4094  Vminpu=0.60 daily=curvaciac2
+ New Load.218c3 Bus1=218b.3.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=4.2854  kvar=1.5624 Vminpu=0.60 daily=curvaciac3
+ 
+//carga do trafo Ens.dist.
+ New Load.219c1 Bus1=219b.1.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=23.7216  kvar=1.3692  Vminpu=0.60 daily=curvaensdist1
+ New Load.219c2 Bus1=219b.2.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=23.9708  kvar=11.7124   Vminpu=0.60 daily=curvaensdist2
+ New Load.219c3 Bus1=219b.3.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=19.3172 kvar=6.7998 Vminpu=0.60 daily=curvaensdist3
+ 
+ //carga do trafo Labnovoquimica
+ New Load.222c1 Bus1=222b.1.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=10.4552  kvar=1.6814  Vminpu=0.60 daily=curvalabnovoquimica1
+ New Load.222c2 Bus1=222b.2.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=9.2708  kvar=0.8116   Vminpu=0.60 daily=curvalabnovoquimica2
+ New Load.222c3 Bus1=222b.3.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=8.946  kvar=1.6996 Vminpu=0.60 daily=curvalabnovoquimica3
+ 
+//carga do trafo Fisica ensino
+ New Load.223c1 Bus1=223b.1.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=5.3914  kvar=0.3472  Vminpu=0.60 daily=curvafisicaensino1
+ New Load.223c2 Bus1=223b.2.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=6.0046 kvar=2.4094  Vminpu=0.60 daily=curvafisicaensino2
+ New Load.223c3 Bus1=223b.3.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=4.2854  kvar=1.5624 Vminpu=0.60 daily=curvafisicaensino3
+    
+//carga do trafo Geociencias
+ New Load.224c1 Bus1=224b.1.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=5.3914  kvar=0.3472  Vminpu=0.60 daily=curvageociencias1
+ New Load.224c2 Bus1=224b.2.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=6.0046 kvar=2.4094  Vminpu=0.60 daily=curvageociencias2
+ New Load.224c3 Bus1=224b.3.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=4.2854  kvar=1.5624 Vminpu=0.60 daily=curvageociencias3
+    	
+//carga do trafo Blocos
+ New Load.226c1 Bus1=226b.1.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=5.3914  kvar=0.3472  Vminpu=0.60 daily=curvablocosdeaula1
+ New Load.226c2 Bus1=226b.2.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=6.0046 kvar=2.4094  Vminpu=0.60 daily=curvablocosdeaula2
+ New Load.226c3 Bus1=226b.3.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=4.2854  kvar=1.5624 Vminpu=0.60 daily=curvablocosdeaula3
+ 
+
+ //carga do trafo Mirante do Rio
+ New Load.228c1 Bus1=228b.1.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=31.4104  kvar=14.3346  Vminpu=0.60 daily=curvabiblioteca1
+ New Load.228c2 Bus1=228b.2.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=30.2806  kvar=14.8186   Vminpu=0.60 daily=curvabiblioteca2
+ New Load.228c3 Bus1=228b.3.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=30.8714  kvar=8.6842 Vminpu=0.60 daily=curvabiblioteca3
+
+ 
+ //carga do trafo Biblioteca
+ New Load.229c1 Bus1=229b.1.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=31.4104  kvar=14.3346  Vminpu=0.60 daily=curvabiblioteca1
+ New Load.229c2 Bus1=229b.2.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=30.2806  kvar=14.8186   Vminpu=0.60 daily=curvabiblioteca2
+ New Load.229c3 Bus1=229b.3.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=30.8714  kvar=8.6842 Vminpu=0.60 daily=curvabiblioteca3
+ 
+ 
+ //carga do trafo RU1
+ New Load.234c1 Bus1=234b.1.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=5.3914  kvar=0.3472  Vminpu=0.60 daily=curvaRU11
+ New Load.234c2 Bus1=234b.2.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=6.0046 kvar=2.4094  Vminpu=0.60 daily=curvaRU12
+ New Load.234c3 Bus1=234b.3.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=4.2854  kvar=1.5624 Vminpu=0.60 daily=curvaRU13
+  
+ //carga do trafo RU2
+ New Load.235c1 Bus1=235b.1.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=23.7216  kvar=1.3692  Vminpu=0.60 daily=curvaRU21
+ New Load.235c2 Bus1=235b.2.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=23.9708  kvar=11.7124   Vminpu=0.60 daily=curvaRU22
+ New Load.235c3 Bus1=235b.3.4  Phases=1 Conn=wye Model=1 kV=0.127   kw=19.3172 kvar=6.7998 Vminpu=0.60 daily=curvaRU23
+ 
+//redirect eletropostos_basico2.dss

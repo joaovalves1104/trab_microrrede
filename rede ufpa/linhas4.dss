@@ -1,0 +1,366 @@
+
+
+!linhas do alimentador IV da UFPA (Saúde)
+
+
+new line.AL400401 phases=3 bus1=CabineDeMedicao bus2=401
+~ geometry =400401
+~ length=16.7855 units=m
+
+new line.AL401402 phases=3 bus1=401 bus2=402
+~ geometry=401402
+~ length= 28.1791 units=m
+
+new line.AL402403 phases=3 bus1=402 bus2=403
+~ geometry=402403
+~ length= 46.9431 units=m
+
+new line.AL403404 phases=3 bus1=403 bus2=404
+~ geometry=403404
+~ length= 17.5488 units=m
+
+new line.AL404405 phases=3 bus1=404 bus2=405
+~ geometry=404405
+~ length= 32.1629 units=m
+
+new line.AL405406 phases=3 bus1=405 bus2=406
+~ geometry=405406
+~ length= 17.8595 units=m
+
+new line.AL406407 phases=3 bus1=406 bus2=407
+~ geometry=406407
+~ length= 2.1465 units=m
+
+new line.AL407408 phases=3 bus1=407 bus2=408
+~ geometry=407408
+~ length= 25.8479 units=m
+
+new line.AL408409 phases=3 bus1=408 bus2=409
+~ geometry=408409
+~ length= 32.0541 units=m
+
+new line.AL409410 phases=3 bus1=409 bus2=410
+~ geometry=409410
+~ length= 1.4336 units=m
+
+new line.AL410411 phases=3 bus1=410 bus2=411
+~ geometry=410411
+~ length= 40.8374 units=m
+
+new line.AL411412 phases=3 bus1=411 bus2=412
+~ geometry=411412
+~ length= 26.3096 units=m
+
+new line.AL412413 phases=3 bus1=412 bus2=413
+~ geometry=412413
+~ length= 55.0655 units=m
+
+
+new line.AL413414 phases=3 bus1=413 bus2=414
+~ geometry=413414
+~ length= 15.6274 units=m
+
+new line.AL414415 phases=3 bus1=414 bus2=415
+~ geometry=414415
+~ length= 16.1362 units=m
+
+new line.AL415416 phases=3 bus1=415 bus2=416
+~ geometry=415416
+~ length= 60.4354 units=m
+
+new line.AL416417 phases=3 bus1=416 bus2=417
+~ geometry=416417
+~ length= 45.7240 units=m
+
+new line.AL417418 phases=3 bus1=417 bus2=418
+~ geometry=417418
+~ length= 6.0306 units=m
+
+new line.AL418419 phases=3 bus1=418 bus2=419
+~ geometry=418419
+~ length= 36.0812 units=m
+
+new line.AL419420 phases=3 bus1=419 bus2=420
+~ geometry=419420
+~ length= 39.6972 units=m
+
+new line.AL420421 phases=3 bus1=420 bus2=421
+~ geometry=420421
+~ length= 41.4550 units=m
+
+new line.AL421422 phases=3 bus1=421 bus2=422
+~ geometry=421422
+~ length= 51.0935 units=m
+
+new line.AL422423 phases=3 bus1=422 bus2=423
+~ geometry=422423
+~ length= 63.7834 units=m
+
+new line.AL423424 phases=3 bus1=423 bus2=424
+~ geometry=423424
+~ length= 1.0800 units=m
+
+new line.AL424425 phases=3 bus1=424 bus2=425
+~ geometry=424425
+~ length= 37.6459 units=m
+
+new line.AL425426 phases=3 bus1=425 bus2=426
+~ geometry=425426
+~ length= 29.4450 units=m
+
+new line.AL426427 phases=3 bus1=426 bus2=427
+~ geometry=426427
+~ length= 20.0023 units=m
+
+new line.AL427428 phases=3 bus1=427 bus2=428
+~ geometry=427428
+~ length= 28.5912 units=m
+
+new line.AL428429 phases=3 bus1=428 bus2=429
+~ geometry=428429
+~ length= 47.8017 units=m
+
+new line.AL429430 phases=3 bus1=429 bus2=430
+~ geometry=429430
+~ length= 30.0980 units=m
+
+new line.AL430431 phases=3 bus1=430 bus2=431
+~ geometry=430431
+~ length= 30.9677 units=m
+
+new line.AL431432 phases=3 bus1=431 bus2=432
+~ geometry=431432
+~ length= 34.2667 units=m
+
+new line.AL432433 phases=3 bus1=432 bus2=433
+~ geometry=432433
+~ length= 34.7851 units=m
+
+new line.AL433434 phases=3 bus1=433 bus2=434
+~ geometry=433434
+~ length= 29.2435 units=m
+
+new line.AL434435 phases=3 bus1=434 bus2=435
+~ geometry=434435
+~ length= 27.7517 units=m
+
+new line.AL435436 phases=3 bus1=435 bus2=436
+~ geometry=435436
+~ length= 28.9393 units=m
+
+new line.AL436437 phases=3 bus1=436 bus2=437
+~ geometry=436437
+~ length= 47.5453 units=m
+
+new line.AL437438 phases=3 bus1=437 bus2=438
+~ geometry=437438
+~ length= 22.0177 units=m
+
+new line.AL436439 phases=3 bus1=436 bus2=439
+~ geometry=436439
+~ length= 37.0503 units=m
+
+new line.AL439440 phases=3 bus1=439 bus2=440
+~ geometry=439440
+~ length= 29.4765 units=m
+
+new line.AL440441 phases=3 bus1=440 bus2=441
+~ geometry=440441
+~ length= 23.5178 units=m
+
+new line.AL425442 phases=3 bus1=425 bus2=442
+~ geometry=425442
+~ length= 27.2858 units=m
+
+new line.AL442443 phases=3 bus1=442 bus2=443
+~ geometry=442443
+~ length= 23.7859 units=m
+
+new line.AL443444 phases=3 bus1=443 bus2=444
+~ geometry=443444
+~ length= 29.3516 units=m
+
+new line.AL444445 phases=3 bus1=444 bus2=445
+~ geometry=444445
+~ length= 18.4610 units=m
+
+new line.AL442446 phases=3 bus1=442 bus2=446
+~ geometry=442446
+~ length= 22.9124 units=m
+
+new line.AL446447 phases=3 bus1=446 bus2=447
+~ geometry=446447
+~ length= 27.1289 units=m
+
+new line.AL447448 phases=3 bus1=447 bus2=448
+~ geometry=447448
+~ length= 32.4856 units=m
+
+new line.AL448449 phases=3 bus1=448 bus2=449
+~ geometry=448449
+~ length= 32.5206 units=m
+
+new line.AL449449a phases=3 bus1=449 bus2=449a
+~ geometry=449449a
+~ length= 55.3792 units=m
+
+
+new line.AL449450 phases=3 bus1=449 bus2=450
+~ geometry=449450
+~ length= 32.4155 units=m
+
+new line.AL450451 phases=3 bus1=450 bus2=451
+~ geometry=450451
+~ length= 49.6458 units=m
+
+new line.AL451452 phases=3 bus1=451 bus2=452
+~ geometry=451452
+~ length= 38.3589 units=m
+
+new line.AL452453 phases=3 bus1=452 bus2=453
+~ geometry=452453
+~ length= 40.3622 units=m
+
+new line.AL453454 phases=3 bus1=453 bus2=454
+~ geometry=453454
+~ length= 48.2967 units=m
+
+new line.AL453455 phases=3 bus1=453 bus2=455
+~ geometry=453455
+~ length= 24.7356 units=m
+
+new line.AL455456 phases=3 bus1=455 bus2=456
+~ geometry=455456
+~ length= 35.6730 units=m
+
+new line.AL456457 phases=3 bus1=456 bus2=457
+~ geometry=456457
+~ length= 59.3355 units=m
+
+new line.AL456458 phases=3 bus1=456 bus2=458
+~ geometry=456458
+~ length= 39.5477 units=m
+
+new line.AL458459 phases=3 bus1=458 bus2=459
+~ geometry=458459
+~ length= 35.6903 units=m
+
+new line.AL4594660 phases=3 bus1=459 bus2=460
+~ geometry=459460
+~ length= 19.3024 units=m
+
+new line.AL460461 phases=3 bus1=460 bus2=461
+~ geometry=460461
+~ length= 34.0454 units=m
+
+new line.AL461462 phases=3 bus1=461 bus2=462
+~ geometry=461462
+~ length= 19.9540 units=m
+
+new line.AL450463 phases=3 bus1=450 bus2=463
+~ geometry=450463
+~ length= 23.4860 units=m
+
+new line.AL463464 phases=3 bus1=463 bus2=464
+~ geometry=463464
+~ length= 24.5530 units=m
+
+new line.AL464465 phases=3 bus1=464 bus2=465
+~ geometry=464465
+~ length= 42.3159 units=m
+
+new line.AL464466 phases=3 bus1=464 bus2=466
+~ geometry=464466
+~ length= 73.6984 units=m
+
+new line.AL466467 phases=3 bus1=466 bus2=467
+~ geometry=466467
+~ length= 20.0850 units=m
+
+new line.AL467468 phases=3 bus1=467 bus2=468
+~ geometry=467468
+~ length= 17.4978 units=m
+
+new line.AL468469 phases=3 bus1=468 bus2=469
+~ geometry=468469
+~ length= 42.6585 units=m
+
+new line.AL468470 phases=3 bus1=468 bus2=470
+~ geometry=468470
+~ length= 55.6181 units=m
+
+new line.AL470471 phases=3 bus1=470 bus2=471
+~ geometry=470471
+~ length= 26.6238 units=m
+
+new line.AL470472 phases=3 bus1=470 bus2=472
+~ geometry=470472
+~ length= 34.0101 units=m
+
+new line.AL472473 phases=3 bus1=472 bus2=473
+~ geometry=472473
+~ length= 66.6004 units=m
+
+new line.AL473474 phases=3 bus1=473 bus2=474
+~ geometry=473474
+~ length= 47.8008 units=m
+
+new line.AL474475 phases=3 bus1=474 bus2=475
+~ geometry=474475
+~ length= 84.3486 units=m
+
+new line.AL475476 phases=3 bus1=475 bus2=476
+~ geometry=475476
+~ length= 32.7024 units=m
+
+new line.AL476477 phases=3 bus1=476 bus2=477
+~ geometry=476477
+~ length= 23.6237 units=m
+
+new line.AL475478 phases=3 bus1=475 bus2=478
+~ geometry=475478
+~ length= 45.000 units=m
+
+new line.AL478479 phases=3 bus1=478 bus2=479
+~ geometry=478479
+~ length= 40.000 units=m
+
+new line.AL479480 phases=3 bus1=479 bus2=480
+~ geometry=479480
+~ length= 45.000 units=m
+
+new line.AL480481 phases=3 bus1=480 bus2=481
+~ geometry=480481
+~ length= 35.000 units=m
+
+new line.AL481482 phases=3 bus1=481 bus2=482
+~ geometry=481482
+~ length= 32.000 units=m
+
+new line.AL482483 phases=3 bus1=482 bus2=483
+~ geometry=482483
+~ length= 30.000 units=m
+
+new line.AL483484 phases=3 bus1=483 bus2=484
+~ geometry=483484
+~ length= 40.000 units=m
+
+new line.AL484485 phases=3 bus1=484 bus2=485
+~ geometry=484485
+~ length= 35.000 units=m
+
+new line.AL485486 phases=3 bus1=485 bus2=486
+~ geometry=485486
+~ length= 40.000 units=m
+
+new line.AL486487 phases=3 bus1=486 bus2=487
+~ geometry=486487
+~ length= 25.000 units=m
+
+new line.AL487488 phases=3 bus1=487 bus2=488
+~ geometry=487488
+~ length= 22.000 units=m
+
+new line.AL488489 phases=3 bus1=488 bus2=489
+~ geometry=488489
+~ length= 13.000 units=m

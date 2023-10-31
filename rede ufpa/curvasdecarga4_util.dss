@@ -1,0 +1,357 @@
+
+!Curvas de Carga do Alimentador IV da UFPA (Saúde)
+
+//curvas de carGa P e Q para cada fase do Poema Baseado na Nutrição
+new loadshape.Poema1 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=1, header=yes)
+~ Qmult=(file=Qnutricao_util.csv, column=1, header=yes)
+
+new loadshape.Poema2 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=2, header=yes)
+~ Qmult=(file=Qnutricao_util.csv, column=2, header=yes)
+
+new loadshape.Poema3 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=3, header=yes)
+~ Qmult=(file=Qnutricao_util.csv, column=3, header=yes)
+
+//curvas de carga P e Q para cada fase da Nova no Caminho da Naval Baseado na Nutrição
+new loadshape.NovaCamNaval1 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=1, header=yes)
+~ Qmult=(file=Qnutricao_util.csv, column=1, header=yes)
+
+new loadshape.NovaCamNaval2 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=2, header=yes)
+~ Qmult=(file=Qnutricao_util.csv, column=2, header=yes)
+
+new loadshape.NovaCamNaval3 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=3, header=yes)
+~ Qmult=(file=Qnutricao_util.csv, column=3, header=yes)
+
+//curvas de carga P e Q para cada fase do Faculdade de Naval Baseado na Arquitetura
+new loadshape.Faculdadenaval1 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=1, header=yes)
+~ Qmult=(file=Qarquitetura_util.csv, column=1, header=yes)
+
+new loadshape.Faculdadenaval2 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=2, header=yes)
+~ Qmult=(file=Qarquitetura_util.csv, column=2, header=yes)
+
+new loadshape.Faculdadenaval3 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=3, header=yes)
+~ Qmult=(file=Qarquitetura_util.csv, column=3, header=yes)
+
+//curvas de carga P e Q para cada fase da Construção de Naval baseada na Nutrição 
+new loadshape.ConstruNaval1 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=1, header=yes)
+~ Qmult=(file=Qnutricao_util.csv, column=1, header=yes)
+
+new loadshape.ConstruNaval2 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=2, header=yes)
+~ Qmult=(file=Qnutricao_util.csv, column=2, header=yes)
+
+new loadshape.ConstruNaval3 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=3, header=yes)
+~ Qmult=(file=Qnutricao_util.csv, column=3, header=yes)
+
+//curvas de carga P e Q para cada fase da Farmacia de Naval Nutrição 
+new loadshape.Farmacia1 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=1, header=yes)
+~ Qmult=(file=Qnutricao_util.csv, column=1, header=yes)
+
+new loadshape.Farmacia2 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=2, header=yes)
+~ Qmult=(file=Qnutricao_util.csv, column=2, header=yes)
+
+new loadshape.Farmacia3 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=3, header=yes)
+~ Qmult=(file=Qnutricao_util.csv, column=3, header=yes)
+
+
+//curvas de carga P e Q para cada fase de Odonto Baseado na Arquitetura 
+new loadshape.Odonto1 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=1, header=yes)
+~ Qmult=(file=Qarquitetura_util.csv, column=1, header=yes)
+
+new loadshape.Odonto2 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=2, header=yes)
+~ Qmult=(file=Qarquitetura_util.csv, column=2, header=yes)
+
+new loadshape.Odonto3 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=3, header=yes)
+~ Qmult=(file=Qarquitetura_util.csv, column=3, header=yes)
+
+//curvas de carva P e Q para cada fase de Salas de Aula baseada no IG 
+new loadshape.Salasdeaulasaude1 npts=144 minterval=10
+~ Pmult=(file=PIG_util.csv, column=1, header=yes)
+~ Qmult=(file=QIG_util.csv, column=1, header=yes)
+
+new loadshape.Salasdeaulasaude2 npts=144 minterval=10
+~ Pmult=(file=PIG_util.csv, column=2, header=yes)
+~ Qmult=(file=QIG_util.csv, column=2, header=yes)
+
+new loadshape.Salasdeaulasaude3 npts=144 minterval=10
+~ Pmult=(file=PIG_util.csv, column=3, header=yes)
+~ Qmult=(file=QIG_util.csv, column=3, header=yes)
+
+//curvas de carva P e Q para cada fase do GEDAE  baseada no IG 
+new loadshape.GEDAE1 npts=144 minterval=10
+~ Pmult=(file=PIG_util.csv, column=1, header=yes)
+~ Qmult=(file=QIG_util.csv, column=1, header=yes)
+
+new loadshape.GEDAE2 npts=144 minterval=10
+~ Pmult=(file=PIG_util.csv, column=2, header=yes)
+~ Qmult=(file=QIG_util.csv, column=2, header=yes)
+
+new loadshape.GEDAE3 npts=144 minterval=10
+~ Pmult=(file=PIG_util.csv, column=3, header=yes)
+~ Qmult=(file=QIG_util.csv, column=3, header=yes)
+
+//curvas de carva P e Q para cada fase da Dermatologia  baseada no IG 
+new loadshape.Dermatologia1 npts=144 minterval=10
+~ Pmult=(file=PIG_util.csv, column=1, header=yes)
+~ Qmult=(file=QIG_util.csv, column=1, header=yes)
+
+new loadshape.Dermatologia2 npts=144 minterval=10
+~ Pmult=(file=PIG_util.csv, column=2, header=yes)
+~ Qmult=(file=QIG_util.csv, column=2, header=yes)
+
+new loadshape.Dermatologia3 npts=144 minterval=10
+~ Pmult=(file=PIG_util.csv, column=3, header=yes)
+~ Qmult=(file=QIG_util.csv, column=3, header=yes)
+
+//curvas de carga P e Q para cada fase da Nutrição 
+new loadshape.Nutricao1 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=1, header=yes)
+~ Qmult=(file=Qnutricao_util.csv, column=1, header=yes)
+
+new loadshape.Nutricao2 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=2, header=yes)
+~ Qmult=(file=Qnutricao_util.csv, column=2, header=yes)
+
+new loadshape.Nutricao3 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=3, header=yes)
+~ Qmult=(file=Qnutricao_util.csv, column=3, header=yes)
+
+//curvas de carga P e Q para cada fase da Fisioterapia baseada na Nutrição
+new loadshape.Fisio1 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=1, header=yes)
+~ Qmult=(file=Qnutricao_util.csv, column=1, header=yes)
+
+new loadshape.Fisio2 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=2, header=yes)
+~ Qmult=(file=Qnutricao_util.csv, column=2, header=yes)
+
+new loadshape.Fisio3 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=3, header=yes)
+~ Qmult=(file=Qnutricao_util.csv, column=3, header=yes)
+
+
+//curvas de carga P e Q para cada fase do Betina1 Baseado na Arquitetura
+new loadshape.Betina11 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=1, header=yes)
+~ Qmult=(file=Qarquitetura_util.csv, column=1, header=yes)
+
+new loadshape.Betina12 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=2, header=yes)
+~ Qmult=(file=Qarquitetura_util.csv, column=2, header=yes)
+
+new loadshape.Betina13 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=3, header=yes)
+~ Qmult=(file=Qarquitetura_util.csv, column=3, header=yes)
+
+//curvas de carga P e Q para cada fase do Betina2 Baseado na Arquitetura
+new loadshape.Betina21 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=1, header=yes)
+~ Qmult=(file=Qarquitetura_util.csv, column=1, header=yes)
+
+new loadshape.Betina22 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=2, header=yes)
+~ Qmult=(file=Qarquitetura_util.csv, column=2, header=yes)
+
+new loadshape.Betina23 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=3, header=yes)
+~ Qmult=(file=Qarquitetura_util.csv, column=3, header=yes)
+
+
+//curvas de carga P e Q para cada fase do Betina3 Baseado no ICB
+new loadshape.Betina31 npts=144 minterval=10
+~ mult=(file=PICB_util.csv, column=1, header=yes)
+~ Qmult=(file=QICB_util.csv, column=1, header=yes)
+
+new loadshape.Betina32 npts=144 minterval=10
+~ mult=(file=PICB_util.csv, column=2, header=yes)
+~ Qmult=(file=QICB_util.csv, column=2, header=yes)
+
+new loadshape.Betina33 npts=144 minterval=10
+~ mult=(file=PICB_util.csv, column=3, header=yes)
+~ Qmult=(file=QICB_util.csv, column=3, header=yes)
+
+//curvas de carga P e Q para cada fase da Medicina  baseada no IG 
+new loadshape.Medicina1 npts=144 minterval=10
+~ Pmult=(file=PIG_util.csv, column=1, header=yes)
+~ Qmult=(file=QIG_util.csv, column=1, header=yes)
+
+new loadshape.Medicina2 npts=144 minterval=10
+~ Pmult=(file=PIG_util.csv, column=2, header=yes)
+~ Qmult=(file=QIG_util.csv, column=2, header=yes)
+
+new loadshape.Medicina3 npts=144 minterval=10
+~ Pmult=(file=PIG_util.csv, column=3, header=yes)
+~ Qmult=(file=QIG_util.csv, column=3, header=yes)
+
+//curvas de carga P e Q para cada fase da Genomica  baseada no IG 
+new loadshape.Genomica1 npts=144 minterval=10
+~ Pmult=(file=PIG_util.csv, column=1, header=yes)
+~ Qmult=(file=QIG_util.csv, column=1, header=yes)
+
+new loadshape.Genomica2 npts=144 minterval=10
+~ Pmult=(file=PIG_util.csv, column=2, header=yes)
+~ Qmult=(file=QIG_util.csv, column=2, header=yes)
+
+new loadshape.Genomica3 npts=144 minterval=10
+~ Pmult=(file=PIG_util.csv, column=3, header=yes)
+~ Qmult=(file=QIG_util.csv, column=3, header=yes)
+
+//curvas de carga P e Q para cada fase do Ceamazon
+new loadshape.curvaceamazon1 npts=144 minterval=10
+~ Pmult=(file=Pceamazon_util.csv, column=1, header=yes)
+~ Qmult=(file=Qceamazon_util.csv, column=1, header=yes)
+
+new loadshape.curvaceamazon2 npts=144 minterval=10
+~ Pmult=(file=Pceamazon_util.csv, column=2, header=yes)
+~ Qmult=(file=Qceamazon_util.csv, column=2, header=yes)
+
+new loadshape.curvaceamazon3 npts=144 minterval=10
+~ Pmult=(file=Pceamazon_util.csv, column=3, header=yes)
+~ Qmult=(file=Qceamazon_util.csv, column=3, header=yes)
+
+
+//curvas de carga P e Q para cada fase da Qualidade do leite baseada na Nutrição
+new loadshape.Qleite1 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=1, header=yes)
+~ Qmult=(file=Qnutricao_util.csv, column=1, header=yes)
+
+new loadshape.Qleite2 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=2, header=yes)
+~ Qmult=(file=Qnutricao_util.csv, column=2, header=yes)
+
+new loadshape.Qleite3 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=3, header=yes)
+~ Qmult=(file=Qnutricao_util.csv, column=3, header=yes)
+
+//curvas de carva P e Q para cada fase do PCT  baseada no IG
+new loadshape.PCT1 npts=144 minterval=10
+~ Pmult=(file=PIG_util.csv, column=1, header=yes)
+~ Qmult=(file=QIG_util.csv, column=1, header=yes)
+
+new loadshape.PCT2 npts=144 minterval=10
+~ Pmult=(file=PIG_util.csv, column=2, header=yes)
+~ Qmult=(file=QIG_util.csv, column=2, header=yes)
+
+new loadshape.PCT3 npts=144 minterval=10
+~ Pmult=(file=PIG_util.csv, column=3, header=yes)
+~ Qmult=(file=QIG_util.csv, column=3, header=yes)
+
+!Redireciona para as curvas de cargas dos eletropostos
+//redirect curvadecarga_eletroposto.dss
+//redirect eletropostos_util.dss
+
+/*
+//curvas de carga P e Q para cada fase do EVC dados reais
+new loadshape.EVC11 npts=86400 sinterval=1
+~ Pmax=(file=Pevc_util1.csv, column=1, header=yes)
+~ Qmax=(file=Qevc_util1.csv, column=1, header=yes)
+
+new loadshape.EVC21 npts=86400 sinterval=1
+~ Pmax=(file=Pevc_util1.csv, column=2, header=yes)
+~ Qmax=(file=Qevc_util1.csv, column=2, header=yes)
+
+new loadshape.EVC31 npts=86400 sinterval=1
+~ Pmax=(file=Pevc_util1.csv, column=3, header=yes)
+~ Qmax=(file=Qevc_util1.csv, column=3, header=yes)
+
+new loadshape.EVC12 npts=86400 sinterval=1
+~ Pmax=(file=Pevc_util2.csv, column=1, header=yes)
+~ Qmax=(file=Qevc_util2.csv, column=1, header=yes)
+
+new loadshape.EVC22 npts=86400 sinterval=1
+~ Pmax=(file=Pevc_util2.csv, column=2, header=yes)
+~ Qmax=(file=Qevc_util2.csv, column=2, header=yes)
+
+new loadshape.EVC32 npts=86400 sinterval=1
+~ Pmax=(file=Pevc_util2.csv, column=3, header=yes)
+~ Qmax=(file=Qevc_util2.csv, column=3, header=yes)
+
+new loadshape.EVC13 npts=86400 sinterval=1
+~ Pmax=(file=Pevc_util3.csv, column=1, header=yes)
+~ Qmax=(file=Qevc_util3.csv, column=1, header=yes)
+
+new loadshape.EVC23 npts=86400 sinterval=1
+~ Pmax=(file=Pevc_util3.csv, column=2, header=yes)
+~ Qmax=(file=Qevc_util3.csv, column=2, header=yes)
+
+new loadshape.EVC33 npts=86400 sinterval=1
+~ Pmax=(file=Pevc_util3.csv, column=3, header=yes)
+~ Qmax=(file=Qevc_util3.csv, column=3, header=yes)
+
+new loadshape.EVC14 npts=86400 sinterval=1
+~ Pmax=(file=Pevc_util4.csv, column=1, header=yes)
+~ Qmax=(file=Qevc_util4.csv, column=1, header=yes)
+
+new loadshape.EVC24 npts=86400 sinterval=1
+~ Pmax=(file=Pevc_util4.csv, column=2, header=yes)
+~ Qmax=(file=Qevc_util4.csv, column=2, header=yes)
+
+new loadshape.EVC34 npts=86400 sinterval=1
+~ Pmax=(file=Pevc_util4.csv, column=3, header=yes)
+~ Qmax=(file=Qevc_util4.csv, column=3, header=yes)
+
+new loadshape.EVC15 npts=86400 sinterval=1
+~ Pmax=(file=Pevc_util5.csv, column=1, header=yes)
+~ Qmax=(file=Qevc_util5.csv, column=1, header=yes)
+
+new loadshape.EVC25 npts=86400 sinterval=1
+~ Pmax=(file=Pevc_util5.csv, column=2, header=yes)
+~ Qmax=(file=Qevc_util5.csv, column=2, header=yes)
+
+new loadshape.EVC35 npts=86400 sinterval=1
+~ Pmax=(file=Pevc_util5.csv, column=3, header=yes)
+~ Qmax=(file=Qevc_util5.csv, column=3, header=yes)
+
+new loadshape.EVC16 npts=86400 sinterval=1
+~ Pmax=(file=Pevc_util6.csv, column=1, header=yes)
+~ Qmax=(file=Qevc_util6.csv, column=1, header=yes)
+
+new loadshape.EVC26 npts=86400 sinterval=1
+~ Pmax=(file=Pevc_util6.csv, column=2, header=yes)
+~ Qmax=(file=Qevc_util6.csv, column=2, header=yes)
+
+new loadshape.EVC36 npts=86400 sinterval=1
+~ Pmax=(file=Pevc_util6.csv, column=3, header=yes)
+~ Qmax=(file=Qevc_util6.csv, column=3, header=yes)
+
+new loadshape.EVC17 npts=86400 sinterval=1
+~ Pmax=(file=Pevc_util7.csv, column=1, header=yes)
+~ Qmax=(file=Qevc_util7.csv, column=1, header=yes)
+
+new loadshape.EVC27 npts=86400 sinterval=1
+~ Pmax=(file=Pevc_util7.csv, column=2, header=yes)
+~ Qmax=(file=Qevc_util7.csv, column=2, header=yes)
+
+new loadshape.EVC37 npts=86400 sinterval=1
+~ Pmax=(file=Pevc_util7.csv, column=3, header=yes)
+~ Qmax=(file=Qevc_util7.csv, column=3, header=yes)
+
+new loadshape.EVC18 npts=86400 sinterval=1
+~ Pmax=(file=Pevc_util8.csv, column=1, header=yes)
+~ Qmax=(file=Qevc_util8.csv, column=1, header=yes)
+
+new loadshape.EVC28 npts=86400 sinterval=1
+~ Pmax=(file=Pevc_util8.csv, column=2, header=yes)
+~ Qmax=(file=Qevc_util8.csv, column=2, header=yes)
+
+new loadshape.EVC38 npts=86400 sinterval=1
+~ Pmax=(file=Pevc_util8.csv, column=3, header=yes)
+~ Qmax=(file=Qevc_util8.csv, column=3, header=yes)
+*/
+

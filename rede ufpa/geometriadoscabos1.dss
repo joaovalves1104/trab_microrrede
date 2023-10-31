@@ -1,0 +1,164 @@
+
+!definindo a geometrica do poste do Tipo N (barra) 1=A, 2=B E 3=C
+/*new linegeometry.PN nconds=3 nphases=3
+~cond=1 Wire=Phase X=0.9 H=11 units=m
+~cond=2 Wire=Phase X=-0.3 H=11 units=m
+~cond=3 Wire=Phase X=-0.9 H=11 units=m
+
+!definindo a geometrica do poste do Tipo CL (barra) 1=A, 2=B E 3=C
+new linegeometry.PCL nconds=3 nphases=3
+~cond=1 Wire=Phase X=0.22 H=11 units=m
+~cond=2 Wire=Phase X=0.15 H=10.85 units=m
+~cond=3 Wire=Phase X=0.08 H=11 units=m
+
+!definindo a geometrica do poste do Tipo CC (barra) 1=A, 2=B E 3=C
+new linegeometry.PCC nconds=3 nphases=3
+~cond=1 Wire=Phase X=0.3 H=11 units=m
+~cond=2 Wire=Phase X=0.225 H=10.85 units=m
+~cond=3 Wire=Phase X=0.15 H=11 units=m
+
+!definindo a geometrica do poste do Tipo CU (barra) 1=A, 2=B E 3=C
+new linegeometry.PCU nconds=3 nphases=3
+~cond=1 Wire=Phase X=0.5 H=11 units=m
+~cond=2 Wire=Phase X=0.0 H=10.85 units=m
+~cond=3 Wire=Phase X=-0.5 H=11 units=m
+
+
+!definindo a geometrica do poste do Tipo CJ (barra) 1=A, 2=B E 3=C
+new linegeometry.PCJ nconds=3 nphases=3
+~cond=1 Wire=Phase X=1.32 H=11 units=m
+~cond=2 Wire=Phase X=1.25 H=10.85 units=m
+~cond=3 Wire=Phase X=1.18 H=11 units=m
+*/
+
+
+
+!Percurso entre a barra Referencia e 101 com cabo 95 subterraneo
+new linegeometry.100101 nconds=3 nphases=3
+~ cond=1 Wire=#95 X=0.5 H=0.001 units=m
+~ cond=2 Wire=#95 X=0.0 H=.001 units=m
+~ cond=3 Wire=#95 X=-0.5 H=.001 units=m
+
+!Percurso entre a barra 101 e 102 com cabo 95 com perfil em U 11 metros
+new linegeometry.101102 nconds=3 nphases=3
+~ cond=1 Wire=#95 X=0.5 H=11 units=m
+~ cond=2 Wire=#95 X=0.0 H=10.85 units=m
+~ cond=3 Wire=#95 X=-0.5 H=11 units=m
+
+!Percurso entre a barra 102 e 103 com cabo 95 com perfil em C 11 metros
+new linegeometry.102103 nconds=3 nphases=3
+~ cond=1 Wire=#95 X=0.3 H=11 units=m
+~ cond=2 Wire=#95 X=0.225 H=10.85 units=m
+~ cond=3 Wire=#95 X=0.15 H=11 units=m
+
+
+!Percurso entre a barra 103 e 103a com cabo 35 com perfil subterraneo
+new linegeometry.103103a nconds=3 nphases=3
+~ cond=1 Wire=#35 X=0.5 H=0.001 units=m
+~ cond=2 Wire=#35 X=0.0 H=.001 units=m
+~ cond=3 Wire=#35 X=-0.5 H=.001 units=m
+
+
+!Percurso entre a barra 103 e 104 com cabo 95 com perfil em L em 11 metros
+new linegeometry.103104 nconds=3 nphases=3
+~ cond=1 Wire=#95 X=0.22 H=11 units=m
+~ cond=2 Wire=#95 X=0.15 H=10.85 units=m
+~ cond=3 Wire=#95 X=0.08 H=11 units=m
+
+
+!Percurso entre a barra 104 e 105 com cabo 35 com perfil em C 11 metros
+new linegeometry.104105 nconds=3 nphases=3
+~ cond=1 Wire=#35 X=0.3 H=11 units=m
+~ cond=2 Wire=#35 X=0.225 H=10.85 units=m
+~ cond=3 Wire=#35 X=0.15 H=11 units=m
+
+!Percurso entre a barra 105 e 106 com cabo 35 com perfil em U 11 metros
+new linegeometry.105106 nconds=3 nphases=3
+~ cond=1 Wire=#35 X=0.5 H=11 units=m
+~ cond=2 Wire=#35 X=0.0 H=10.85 units=m
+~ cond=3 Wire=#35 X=-0.5 H=11 units=m
+
+!Percurso entre a barra 105 e 107 com cabo 35 com perfil em L em 11 metros
+new linegeometry.105107 nconds=3 nphases=3
+~ cond=1 Wire=#35 X=0.22 H=11 units=m
+~ cond=2 Wire=#35 X=0.15 H=10.85 units=m
+~ cond=3 Wire=#35 X=0.08 H=11 units=m
+
+new linegeometry.107108 like=105107
+new linegeometry.108109 like=104105
+
+!Subterraneo de 35 mm2
+new linegeometry.109109a like=103103a
+
+new linegeometry.104110 like=104105
+new linegeometry.110111 like=105107
+new linegeometry.111112 like=105106
+new linegeometry.111113 like=105107
+new linegeometry.113114 like=105107
+new linegeometry.104115 like=103104
+new linegeometry.115116 like=104105
+new linegeometry.116117 like=104105
+new linegeometry.117118 like=104105
+new linegeometry.118119 like=105106
+
+!Percurso entre a barra 115 e 120 com cabo 1/0 com poste N de 11 metros
+new linegeometry.115120 nconds=3 nphases=3
+~ cond=1 Wire=#1/0 X=0.9 H=11 units=m
+~ cond=2 Wire=#1/0 X=-0.3 H=11 units=m
+~ cond=3 Wire=#1/0 X=-0.9 H=11 units=m
+
+new linegeometry.115121 like=102103
+new linegeometry.121122 like=102103
+new linegeometry.122123 like=102103
+new linegeometry.123124 like=102103
+
+!Percurso entre a barra 124 e 125 com cabo 95 com perfil em J 11 metros
+new linegeometry.124125 nconds=3 nphases=3
+~ cond=1 Wire=#95 X=1.32 H=11 units=m
+~ cond=2 Wire=#95 X=1.25 H=10.85 units=m
+~ cond=3 Wire=#95 X=1.18 H=11 units=m
+
+new linegeometry.125126 like=105106
+new linegeometry.125127 like=124125
+new linegeometry.127128 like=102103
+new linegeometry.128129 like=105106
+new linegeometry.128130 like=104105
+new linegeometry.130131 like=104105
+new linegeometry.131132 like=105107
+new linegeometry.132133 like=105106
+new linegeometry.132134 like=105106
+new linegeometry.128135 like=104105
+new linegeometry.135136 like=105107
+new linegeometry.136137 like=105107
+new linegeometry.137138 like=105106
+new linegeometry.138139 like=104105
+new linegeometry.139140 like=104105
+new linegeometry.140141 like=104105
+new linegeometry.141142 like=105107
+new linegeometry.142142a like=103103a
+new linegeometry.142143 like=105107
+new linegeometry.143143a like=103103a
+new linegeometry.143143b like=103103a
+new linegeometry.140144 like=104105
+new linegeometry.144145 like=105106
+new linegeometry.144146 like=104105
+new linegeometry.146147 like=105106
+new linegeometry.147147a like=103103a
+new linegeometry.147148 like=105106
+new linegeometry.137149 like=105106
+new linegeometry.149150 like=104105
+new linegeometry.150151 like=104105
+new linegeometry.151152 like=105106
+new linegeometry.149153 like=104105
+new linegeometry.153154 like=104105
+new linegeometry.154155 like=104105
+
+!Percurso entre a barra 155 e 156 com cabo 2 CA com poste N de 11 metros
+new linegeometry.155156 nconds=3 nphases=3
+~ cond=1 Wire=#2 X=0.9 H=11 units=m
+~ cond=2 Wire=#2 X=-0.3 H=11 units=m
+~ cond=3 Wire=#2 X=-0.9 H=11 units=m
+
+new linegeometry.155157 like=155156
+new linegeometry.157158 like=155156
+new linegeometry.158158a like=103103a

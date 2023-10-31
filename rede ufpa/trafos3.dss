@@ -1,0 +1,131 @@
+
+/*trafo-> Modelados com as potências, impe e perdas (núcleo e totais, indiretamente no cobre)
+Valores coletados nos datasheets da WEG
+cálculo do XHL, loadloss e noloadloss no MATLAB
+*/
+
+!SE's do alimentador III da UFPA (Profissional)
+
+new transformer.Amplambiental phases=3 windings=2 xhl=3.23 %loadloss=1.33 %noloadloss=0.34
+~ wdg=1 bus=304  conn=delta kv=13.8    kva=75         
+~ wdg=2 bus=304b.1.2.3.4 conn=Wye kv=0.22    kva=75   
+
+new transformer.Ambiental phases=3 windings=2 xhl=4.39 %loadloss=0.99 %noloadloss=0.23
+~ wdg=1 bus=307       conn=delta kv=13.8    kva=300         
+~ wdg=2 bus=307b.1.2.3.4       conn=Wye kv=0.22    kva=300 
+
+new transformer.FavI phases=3 windings=2 xhl=3.23 %loadloss=1.33 %noloadloss=0.34
+~ wdg=1 bus=309  conn=delta kv=13.8    kva=75         
+~ wdg=2 bus=309b.1.2.3.4 conn=Wye kv=0.22    kva=75
+
+new transformer.FavII phases=3 windings=2 xhl=3.23 %loadloss=1.33 %noloadloss=0.34
+~ wdg=1 bus=310  conn=delta kv=13.8    kva=75         
+~ wdg=2 bus=310b.1.2.3.4 conn=Wye kv=0.22    kva=75
+
+new transformer.PGITECI phases=3 windings=2 xhl=4.37 %loadloss=1.05 %noloadloss=0.25
+~ wdg=1 bus=312       conn=delta kv=13.8    kva=225         
+~ wdg=2 bus=312b.1.2.3.4      conn=Wye kv=0.22    kva=225 
+
+new transformer.PGITECII phases=3 windings=2 xhl=4.37 %loadloss=1.05 %noloadloss=0.25
+~ wdg=1 bus=314       conn=delta kv=13.8    kva=225         
+~ wdg=2 bus=314b.1.2.3.4      conn=Wye kv=0.22    kva=225 
+
+
+new transformer.Incubadora phases=3 windings=2 xhl=3.23 %loadloss=1.33 %noloadloss=0.34
+~ wdg=1 bus=316a       conn=delta kv=13.8    kva=112.5         
+~ wdg=2 bus=316b.1.2.3.4       conn=Wye kv=0.22    kva=112.5 
+
+new transformer.Mestradoquimica phases=3 windings=2 xhl=3.31 %loadloss=1.21 %noloadloss=0.28
+~ wdg=1 bus=320       conn=delta kv=13.8    kva=150         
+~ wdg=2 bus=320b.1.2.3.4       conn=Wye kv=0.22    kva=150
+
+new transformer.Arquitetura phases=3 windings=2 xhl=4.37 %loadloss=1.05 %noloadloss=0.25
+~ wdg=1 bus=322       conn=delta kv=13.8    kva=225         
+~ wdg=2 bus=322b.1.2.3.4      conn=Wye kv=0.22    kva=225 
+
+new transformer.FacEngQuimicaI phases=3 windings=2 xhl=4.37 %loadloss=1.05 %noloadloss=0.25
+~ wdg=1 bus=323a       conn=delta kv=13.8    kva=225         
+~ wdg=2 bus=323b.1.2.3.4      conn=Wye kv=0.22    kva=225 
+
+
+new transformer.FacEngQuimicaII phases=3 windings=2 xhl=4.37 %loadloss=1.05 %noloadloss=0.25
+~ wdg=1 bus=323a       conn=delta kv=13.8    kva=225         
+~ wdg=2 bus=323c.1.2.3.4      conn=Wye kv=0.22    kva=225 
+
+new transformer.NovaProfissional phases=3 windings=2 xhl=3.31 %loadloss=1.21 %noloadloss=0.28
+~ wdg=1 bus=324       conn=delta kv=13.8    kva=150         
+~ wdg=2 bus=324b.1.2.3.4       conn=Wye kv=0.22    kva=150
+
+new transformer.LabCivil phases=3 windings=2 xhl=4.39 %loadloss=0.99 %noloadloss=0.23
+~ wdg=1 bus=325       conn=delta kv=13.8    kva=300         
+~ wdg=2 bus=325b.1.2.3.4       conn=Wye kv=0.22    kva=300
+
+new transformer.SalasdeaulaIProfissional phases=3 windings=2 xhl=3.23 %loadloss=1.33 %noloadloss=0.34
+~ wdg=1 bus=329       conn=delta kv=13.8    kva=112.5         
+~ wdg=2 bus=329b.1.2.3.4       conn=Wye kv=0.22    kva=112.5
+
+new transformer.ChaleDeFerro phases=3 windings=2 xhl=3.31 %loadloss=1.21 %noloadloss=0.28
+~ wdg=1 bus=330       conn=delta kv=13.8    kva=150         
+~ wdg=2 bus=330b.1.2.3.4       conn=Wye kv=0.22    kva=150
+
+new transformer.TrataDeAgua phases=3 windings=2 xhl=4.37 %loadloss=1.05 %noloadloss=0.25
+~ wdg=1 bus=332       conn=delta kv=13.8    kva=225         
+~ wdg=2 bus=332b.1.2.3.4      conn=Wye kv=0.22    kva=225
+
+new transformer.Mecanica phases=3 windings=2 xhl=4.39 %loadloss=0.99 %noloadloss=0.23
+~ wdg=1 bus=334       conn=delta kv=13.8    kva=300         
+~ wdg=2 bus=334b.1.2.3.4       conn=Wye kv=0.22    kva=300
+
+
+new transformer.ProxMGabinetes phases=3 windings=2 xhl=3.23 %loadloss=1.33 %noloadloss=0.34
+~ wdg=1 bus=347  conn=delta kv=13.8    kva=112.5         
+~ wdg=2 bus=347b.1.2.3.4 conn=Wye kv=0.22    kva=112.5
+
+new transformer.EngEletrica phases=3 windings=2 xhl=4.39 %loadloss=0.99 %noloadloss=0.23
+~ wdg=1 bus=338a       conn=delta kv=13.8    kva=300         
+~ wdg=2 bus=338b.1.2.3.4       conn=Wye kv=0.22    kva=300
+
+new transformer.LabdeEletrica phases=3 windings=2 xhl=4.39 %loadloss=0.99 %noloadloss=0.23
+~ wdg=1 bus=340       conn=delta kv=13.8    kva=300         
+~ wdg=2 bus=340b.1.2.3.4       conn=Wye kv=0.22    kva=300
+
+new transformer.BlocoEp phases=3 windings=2 xhl=4.39 %loadloss=0.99 %noloadloss=0.23
+~ wdg=1 bus=342a       conn=delta kv=13.8    kva=300         
+~ wdg=2 bus=342b.1.2.3.4       conn=Wye kv=0.22    kva=300
+
+new transformer.Portao3 phases=3 windings=2 xhl=3.23 %loadloss=1.33 %noloadloss=0.34
+~ wdg=1 bus=344  conn=delta kv=13.8    kva=75         
+~ wdg=2 bus=344b.1.2.3.4 conn=Wye kv=0.22    kva=75   
+
+new transformer.RUprofissional phases=3 windings=2 xhl=3.23 %loadloss=1.33 %noloadloss=0.34
+~ wdg=1 bus=345  conn=delta kv=13.8    kva=75         
+~ wdg=2 bus=345b.1.2.3.4 conn=Wye kv=0.22    kva=75  
+
+new transformer.ITEC phases=3 windings=2 xhl=4.37 %loadloss=1.05 %noloadloss=0.25
+~ wdg=1 bus=346a       conn=delta kv=13.8    kva=225         
+~ wdg=2 bus=346b.1.2.3.4      conn=Wye kv=0.22    kva=225 
+
+new transformer.ICED phases=3 windings=2 xhl=4.37 %loadloss=1.05 %noloadloss=0.25
+~ wdg=1 bus=349a       conn=delta kv=13.8    kva=225         
+~ wdg=2 bus=349b.1.2.3.4      conn=Wye kv=0.22    kva=225 
+
+new transformer.SalasdeAulasIIProfissional phases=3 windings=2 xhl=4.39 %loadloss=0.99 %noloadloss=0.23
+~ wdg=1 bus=352a       conn=delta kv=13.8    kva=300         
+~ wdg=2 bus=352b.1.2.3.4       conn=Wye kv=0.22    kva=300
+
+new transformer.AmplICED phases=3 windings=2 xhl=4.37 %loadloss=1.05 %noloadloss=0.25
+~ wdg=1 bus=353       conn=delta kv=13.8    kva=225         
+~ wdg=2 bus=353b.1.2.3.4      conn=Wye kv=0.22    kva=225 
+
+new transformer.ICSA phases=3 windings=2 xhl=4.39 %loadloss=0.99 %noloadloss=0.23
+~ wdg=1 bus=353a       conn=delta kv=13.8    kva=300         
+~ wdg=2 bus=353c.1.2.3.4       conn=Wye kv=0.22    kva=300
+
+new transformer.NAEA phases=3 windings=2 xhl=4.37 %loadloss=1.05 %noloadloss=0.25
+~ wdg=1 bus=357       conn=delta kv=13.8    kva=225         
+~ wdg=2 bus=357b.1.2.3.4      conn=Wye kv=0.22    kva=225 
+
+new transformer.ICJ phases=3 windings=2 xhl=4.39 %loadloss=0.99 %noloadloss=0.23
+~ wdg=1 bus=361       conn=delta kv=13.8    kva=300         
+~ wdg=2 bus=361b.1.2.3.4       conn=Wye kv=0.22    kva=300
+

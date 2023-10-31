@@ -1,0 +1,75 @@
+New Load.476epl1 Bus1=476eletabc.1.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto1
+New Load.476epl2 Bus1=476eletabc.2.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto1
+New Load.476epl3 Bus1=476eletabc.3.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto1
+
+New Load.485epl1 Bus1=485eletabc.1.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto2
+New Load.485epl2 Bus1=485eletabc.2.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto2
+New Load.485epl3 Bus1=485eletabc.3.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto2
+
+New Load.452epl1 Bus1=452eletabc.1.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto3
+New Load.452epl2 Bus1=452eletabc.2.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto3
+New Load.452epl3 Bus1=452eletabc.3.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto3
+
+New Load.426epl1 Bus1=426eletabc.1.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto4
+New Load.426epl2 Bus1=426eletabc.2.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto4
+New Load.426epl3 Bus1=426eletabc.3.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto4
+
+New Load.352epl1 Bus1=352eletabc.1.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto5
+New Load.352epl2 Bus1=352eletabc.2.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto5
+New Load.352epl3 Bus1=352eletabc.3.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto5
+
+New Load.358epl1 Bus1=358eletabc.1.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto6
+New Load.358epl2 Bus1=358eletabc.2.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto6
+New Load.358epl3 Bus1=358eletabc.3.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto6
+
+New Load.339epl1 Bus1=339eletabc.1.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto7
+New Load.339epl2 Bus1=339eletabc.2.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto7
+New Load.339epl3 Bus1=339eletabc.3.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto7
+
+New Load.310epl1 Bus1=310eletabc.1.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto8
+New Load.310epl2 Bus1=310eletabc.2.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto8
+New Load.310epl3 Bus1=310eletabc.3.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto8
+
+New Load.317epl1 Bus1=317eletabc.1.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto9
+New Load.317epl2 Bus1=317eletabc.2.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto9
+New Load.317epl3 Bus1=317eletabc.3.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto9
+
+New Load.323epl1 Bus1=323eletabc.1.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto10
+New Load.323epl2 Bus1=323eletabc.2.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto10
+New Load.323epl3 Bus1=323eletabc.3.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto10
+
+New Load.102epl1 Bus1=102eletabc.1.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto11
+New Load.102epl2 Bus1=102eletabc.2.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto11
+New Load.102epl3 Bus1=102eletabc.3.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto11
+
+New Load.116epl1 Bus1=116eletabc.1.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto12
+New Load.116epl2 Bus1=116eletabc.2.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto12
+New Load.116epl3 Bus1=116eletabc.3.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto12
+
+New Load.139epl1 Bus1=139eletabc.1.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto13
+New Load.139epl2 Bus1=139eletabc.2.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto13
+New Load.139epl3 Bus1=139eletabc.3.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto13
+
+New Load.132epl1 Bus1=132eletabc.1.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto14
+New Load.132epl2 Bus1=132eletabc.2.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto14
+New Load.132epl3 Bus1=132eletabc.3.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto14
+
+New Load.157epl1 Bus1=157eletabc.1.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto15
+New Load.157epl2 Bus1=157eletabc.2.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto15
+New Load.157epl3 Bus1=157eletabc.3.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto15
+
+New Load.213epl1 Bus1=213eletabc.1.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto16
+New Load.213epl2 Bus1=213eletabc.2.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto16
+New Load.213epl3 Bus1=213eletabc.3.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto16
+
+New Load.211epl1 Bus1=211eletabc.1.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto17
+New Load.211epl2 Bus1=211eletabc.2.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto17
+New Load.211epl3 Bus1=211eletabc.3.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto17
+
+New Load.227epl1 Bus1=227eletabc.1.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto18
+New Load.227epl2 Bus1=227eletabc.2.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto18
+New Load.227epl3 Bus1=227eletabc.3.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto18
+
+New Load.233epl1 Bus1=233eletabc.1.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto19
+New Load.233epl2 Bus1=233eletabc.2.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto19
+New Load.233epl3 Bus1=233eletabc.3.4 Phases=1 Conn=wye Model=5 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto19

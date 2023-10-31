@@ -1,0 +1,19 @@
+!Modelagem do Alimentador III da UFPA (Profissional)
+
+!redirecionar a geometria dos cabos
+redirect geometriadoscabos3.dss
+
+!LINES DO Alimentador
+redirect linhas3.dss
+
+!SE's do alimentador
+redirect trafos3.dss 
+
+!redireciona as curvas de carga
+redirect curvasdecarga3_util.dss
+
+
+!rediriona as cargas 
+redirect cargas3_util.dss 
+
+

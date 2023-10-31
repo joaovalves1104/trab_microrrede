@@ -1,0 +1,288 @@
+
+
+!linhas do alimentador III da UFPA (Profissional)
+
+
+new line.AL300301 phases=3 bus1=CabineDeMedicao bus2=301
+~ geometry =300301
+~ length=16.9125 units=m
+
+new line.AL301302 phases=3 bus1=301 bus2=302
+~ geometry=301302
+~ length= 28.1791 units=m
+
+new line.AL302303 phases=3 bus1=302 bus2=303
+~ geometry=302303
+~ length= 46.9431 units=m
+
+new line.AL303304 phases=3 bus1=303 bus2=304
+~ geometry=303304
+~ length= 17.5488 units=m
+
+new line.AL304305 phases=3 bus1=304 bus2=305
+~ geometry=304305
+~ length= 32.1629 units=m
+
+new line.AL305306 phases=3 bus1=305 bus2=306
+~ geometry=305306
+~ length= 17.8595 units=m
+
+new line.AL306307 phases=3 bus1=306 bus2=307
+~ geometry=306307
+~ length= 2.1465 units=m
+
+new line.AL307308 phases=3 bus1=307 bus2=308
+~ geometry=307308
+~ length= 25.8479 units=m
+
+new line.AL308309 phases=3 bus1=308 bus2=309
+~ geometry=307308
+~ length= 48.3072 units=m
+
+new line.AL309310 phases=3 bus1=309 bus2=310
+~ geometry=309310
+~ length= 6.6932 units=m
+
+new line.AL310311 phases=3 bus1=310 bus2=311
+~ geometry=310311
+~ length= 26.9409 units=m
+
+new line.AL311312 phases=3 bus1=311 bus2=312
+~ geometry=311312
+~ length= 25.4818 units=m
+
+new line.AL312313 phases=3 bus1=312 bus2=313
+~ geometry=312313
+~ length= 6.0583 units=m
+
+new line.AL313314 phases=3 bus1=313 bus2=314
+~ geometry=313314
+~ length= 16.8161 units=m
+
+
+new line.AL311315 phases=3 bus1=311 bus2=315
+~ geometry=311315
+~ length= 26.3252 units=m
+
+
+new line.AL315316 phases=3 bus1=315 bus2=316
+~ geometry=315316
+~ length= 41.2875 units=m
+
+new line.AL316316a phases=3 bus1=316 bus2=316a
+~ geometry=316316a
+~ length= 8.9582 units=m
+
+new line.AL316317 phases=3 bus1=316 bus2=317
+~ geometry=316317
+~ length= 41.2567 units=m
+
+new line.AL317318 phases=3 bus1=317 bus2=318
+~ geometry=317318
+~ length= 26.0639 units=m
+
+new line.AL318319 phases=3 bus1=318 bus2=319
+~ geometry=318319
+~ length= 26.2458 units=m
+
+new line.AL319320 phases=3 bus1=319 bus2=320
+~ geometry=319320
+~ length= 12.0766 units=m
+
+new line.AL315321 phases=3 bus1=315 bus2=321
+~ geometry=315321
+~ length= 25.5341 units=m
+
+new line.AL321322 phases=3 bus1=321 bus2=322
+~ geometry=321322
+~ length= 59.1715 units=m
+
+new line.AL322323 phases=3 bus1=322 bus2=323
+~ geometry=322323
+~ length= 16.1729 units=m
+
+new line.AL323323a phases=3 bus1=323 bus2=323a
+~ geometry=323323a
+~ length= 17.4112 units=m
+
+new line.AL323324 phases=3 bus1=323 bus2=324
+~ geometry=323324
+~ length= 44.8437 units=m
+
+new line.AL321325 phases=3 bus1=321 bus2=325
+~ geometry=321325
+~ length= 48.8683 units=m
+
+new line.AL325326 phases=3 bus1=325 bus2=326
+~ geometry=325326
+~ length= 1.8743 units=m
+
+new line.AL326327 phases=3 bus1=326 bus2=327
+~ geometry=326327
+~ length= 25.9645 units=m
+
+
+new line.AL327328 phases=3 bus1=327 bus2=328
+~ geometry=327328
+~ length= 31.9541 units=m
+
+new line.AL328329 phases=3 bus1=328 bus2=329
+~ geometry=328329
+~ length= 9.0552 units=m
+
+new line.AL329330 phases=3 bus1=329 bus2=330
+~ geometry=329330
+~ length= 40.4050 units=m
+
+new line.AL329331 phases=3 bus1=329 bus2=331
+~ geometry=329331
+~ length= 69.6653 units=m
+
+new line.AL331332 phases=3 bus1=331 bus2=332
+~ geometry=331332
+~ length= 21.0861 units=m
+
+new line.AL308333 phases=3 bus1=308 bus2=333
+~ geometry=308333
+~ length= 32.0541 units=m
+
+
+new line.AL333334 phases=3 bus1=333 bus2=334
+~ geometry=333334
+~ length= 1.4336 units=m
+
+new line.AL334335 phases=3 bus1=334 bus2=335
+~ geometry=334335
+~ length= 40.8374 units=m
+
+new line.AL335336 phases=3 bus1=335 bus2=336
+~ geometry=335336
+~ length= 26.3096 units=m
+
+new line.AL336337 phases=3 bus1=336 bus2=337
+~ geometry=336337
+~ length= 22.4765 units=m
+
+new line.AL336338 phases=3 bus1=336 bus2=338
+~ geometry=336338
+~ length= 55.0655 units=m
+
+new line.AL338338a phases=3 bus1=338 bus2=338a
+~ geometry=338338a
+~ length= 15.7721 units=m
+
+
+new line.AL338339 phases=3 bus1=338 bus2=339
+~ geometry=338339
+~ length= 15.6274 units=m
+
+new line.AL339340 phases=3 bus1=339 bus2=340
+~ geometry=339340
+~ length= 37.5479 units=m
+
+new line.AL339341 phases=3 bus1=339 bus2=341
+~ geometry=339341
+~ length= 16.1362 units=m
+
+new line.AL341342 phases=3 bus1=341 bus2=342
+~ geometry=341342
+~ length= 23.3126 units=m
+
+new line.AL342342a phases=3 bus1=342 bus2=342a
+~ geometry=342342a
+~ length= 10.8818 units=m
+
+new line.AL341343 phases=3 bus1=341 bus2=343
+~ geometry=341343
+~ length= 45.9028 units=m
+
+new line.AL343344 phases=3 bus1=343 bus2=344
+~ geometry=343344
+~ length= 37.4401 units=m
+
+new line.AL341345 phases=3 bus1=341 bus2=345
+~ geometry=341345
+~ length= 60.4354 units=m
+
+new line.AL345346 phases=3 bus1=345 bus2=346
+~ geometry=345346
+~ length= 45.7240 units=m
+
+new line.AL346346a phases=3 bus1=346 bus2=346a
+~ geometry=346346a
+~ length= 63.9815 units=m
+
+new line.AL346347 phases=3 bus1=346 bus2=347
+~ geometry=346347
+~ length= 6.0306 units=m
+
+new line.AL347348 phases=3 bus1=347 bus2=348
+~ geometry=347348
+~ length= 41.4001 units=m
+
+new line.AL348349 phases=3 bus1=348 bus2=349
+~ geometry=348349
+~ length= 19.7574 units=m
+
+new line.AL349349a phases=3 bus1=349 bus2=349a
+~ geometry=349349a
+~ length= 2.4484 units=m
+
+
+
+new line.AL347350 phases=3 bus1=347 bus2=350
+~ geometry=347350
+~ length= 36.0812 units=m
+
+new line.AL350351 phases=3 bus1=350 bus2=351
+~ geometry=350351
+~ length= 39.6972 units=m
+
+new line.AL351352 phases=3 bus1=351 bus2=352
+~ geometry=351352
+~ length= 46.8821 units=m
+
+new line.AL352352a phases=3 bus1=352 bus2=352a
+~ geometry=352352a
+~ length= 60.0996 units=m
+
+new line.AL351353 phases=3 bus1=351 bus2=353
+~ geometry=351353
+~ length= 33.8225 units=m
+
+new line.AL353353a phases=3 bus1=353 bus2=353a
+~ geometry=353353a
+~ length= 33.0849 units=m
+
+new line.AL353354 phases=3 bus1=353 bus2=354
+~ geometry=353354
+~ length= 42.0096 units=m
+
+new line.AL354355 phases=3 bus1=354 bus2=355
+~ geometry=354355
+~ length= 31.2831 units=m
+
+new line.AL355356 phases=3 bus1=355 bus2=356
+~ geometry=355356
+~ length= 27.8146 units=m
+
+
+new line.AL356357 phases=3 bus1=356 bus2=357
+~ geometry=356357
+~ length= 11.7585 units=m
+
+new line.AL354358 phases=3 bus1=354 bus2=358
+~ geometry=354358
+~ length= 32.6038 units=m
+
+new line.AL358359 phases=3 bus1=358 bus2=359
+~ geometry=358359
+~ length= 39.8713 units=m
+
+new line.AL359360 phases=3 bus1=359 bus2=360
+~ geometry=359360
+~ length= 37.1156 units=m
+
+new line.AL360361 phases=3 bus1=360 bus2=361
+~ geometry=360361
+~ length= 31 units=m

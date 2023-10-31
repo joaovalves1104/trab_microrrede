@@ -1,0 +1,23 @@
+
+!Os cabos estão com as seguintes informações:
+!Diametro externo; 
+!Resistência ôhmica em corrente continua a 20°C;
+!Capacidade de condução de corrente a 90°C, conforme NBR 11873
+
+
+!cabos do alimentador da UFPA
+
+!cabo de #35 mm² catalogo da prysmian
+new WireData.#35    DIAM=1.5    Rdc=0.868 Normamps=206  Runits=km Radunits=cm	
+
+!cabo de #50 mm² catalogo da prysmian
+new WireData.#50    DIAM=1.6    Rdc=0.641 Normamps=247  Runits=km Radunits=cm 
+
+!cabo de #95 mm² catalogo da prysmian
+new WireData.#95     DIAM=1.94    Rdc=0.320  Normamps=378 Runits=km Radunits=cm 
+
+!cabo de #1/0 CA INDUSCABOS
+new WireData.#1/0    DIAM=0.936    Rdc=0.538 Normamps=235  Runits=km Radunits=cm
+
+!cabo de #2 CA INDUSCABOS
+new WireData.#2    DIAM=0.741    Rdc=0.857 Normamps=175  Runits=km Radunits=cm

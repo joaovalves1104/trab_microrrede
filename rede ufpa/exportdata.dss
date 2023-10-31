@@ -1,0 +1,133 @@
+//exportação de dados
+export monitor object=load4761_power
+export monitor object=load4762_power
+export monitor object=load4763_power
+export monitor object=load4761_voltage
+export monitor object=load4762_voltage
+export monitor object=load4763_voltage
+
+export monitor object=load2271_power
+export monitor object=load2272_power
+export monitor object=load2273_power
+export monitor object=load2271_voltage
+export monitor object=load2272_voltage
+export monitor object=load2273_voltage
+
+export monitor object=load2111_power
+export monitor object=load2112_power
+export monitor object=load2113_power
+export monitor object=load2111_voltage
+export monitor object=load2112_voltage
+export monitor object=load2113_voltage
+
+export monitor object=load2131_power
+export monitor object=load2132_power
+export monitor object=load2133_power
+export monitor object=load2131_voltage
+export monitor object=load2132_voltage
+export monitor object=load2133_voltage
+
+export monitor object=load1571_power
+export monitor object=load1572_power
+export monitor object=load1573_power
+export monitor object=load1571_voltage
+export monitor object=load1572_voltage
+export monitor object=load1573_voltage
+
+export monitor object=load1321_power
+export monitor object=load1322_power
+export monitor object=load1323_power
+export monitor object=load1321_voltage
+export monitor object=load1322_voltage
+export monitor object=load1323_voltage
+
+export monitor object=load1391_power
+export monitor object=load1392_power
+export monitor object=load1393_power
+export monitor object=load1391_voltage
+export monitor object=load1392_voltage
+export monitor object=load1393_voltage
+
+export monitor object=load1161_power
+export monitor object=load1162_power
+export monitor object=load1163_power
+export monitor object=load1161_voltage
+export monitor object=load1162_voltage
+export monitor object=load1163_voltage
+
+export monitor object=load1021_power
+export monitor object=load1022_power
+export monitor object=load1023_power
+export monitor object=load1021_voltage
+export monitor object=load1022_voltage
+export monitor object=load1023_voltage
+
+export monitor object=load3231_power
+export monitor object=load3232_power
+export monitor object=load3233_power
+export monitor object=load3231_voltage
+export monitor object=load3232_voltage
+export monitor object=load3233_voltage
+
+export monitor object=load3171_power
+export monitor object=load3172_power
+export monitor object=load3173_power
+export monitor object=load3171_voltage
+export monitor object=load3172_voltage
+export monitor object=load3173_voltage
+
+export monitor object=load3101_power
+export monitor object=load3102_power
+export monitor object=load3103_power
+export monitor object=load3101_voltage
+export monitor object=load3102_voltage
+export monitor object=load3103_voltage
+
+export monitor object=load3391_power
+export monitor object=load3392_power
+export monitor object=load3393_power
+export monitor object=load3391_voltage
+export monitor object=load3392_voltage
+export monitor object=load3393_voltage
+
+export monitor object=load3581_power
+export monitor object=load3582_power
+export monitor object=load3583_power
+export monitor object=load3581_voltage
+export monitor object=load3582_voltage
+export monitor object=load3583_voltage
+
+export monitor object=load3521_power
+export monitor object=load3522_power
+export monitor object=load3523_power
+export monitor object=load3521_voltage
+export monitor object=load3522_voltage
+export monitor object=load3523_voltage
+
+export monitor object=load4261_power
+export monitor object=load4262_power
+export monitor object=load4263_power
+export monitor object=load4261_voltage
+export monitor object=load4262_voltage
+export monitor object=load4263_voltage
+
+export monitor object=load4521_power
+export monitor object=load4522_power
+export monitor object=load4523_power
+export monitor object=load4521_voltage
+export monitor object=load4522_voltage
+export monitor object=load4523_voltage
+
+export monitor object=load4851_power
+export monitor object=load4852_power
+export monitor object=load4853_power
+export monitor object=load4851_voltage
+export monitor object=load4852_voltage
+export monitor object=load4853_voltage
+
+export monitor object=load2331_power
+export monitor object=load2332_power
+export monitor object=load2333_power
+export monitor object=load2331_voltage
+export monitor object=load2332_voltage
+export monitor object=load2333_voltage

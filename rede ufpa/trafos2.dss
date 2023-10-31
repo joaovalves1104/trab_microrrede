@@ -1,0 +1,72 @@
+
+/*trafo-> Modelados com as potências, impe e perdas (núcleo e totais, indiretamente no cobre)
+Valores coletados nos datasheets da WEG
+cálculo do XHL, loadloss e noloadloss no MATLAB
+*/
+
+!SE's do alimentador II da UFPA (Básico II)
+
+new transformer.PertodoAL2 phases=3 windings=2 xhl=3.15 %loadloss=1.51 %noloadloss=0.37
+~ wdg=1 bus=203  conn=delta kv=13.8    kva=45         
+~ wdg=2 bus=203b.1.2.3.4 conn=Wye kv=0.22    kva=45    
+
+new transformer.Beneditonunes phases=3 windings=2 xhl=4.18 %loadloss=1.66 %noloadloss=0.2
+~ wdg=1 bus=204a       conn=delta kv=13.8    kva=500     
+~ wdg=2 bus=204b.1.2.3.4       conn=Wye kv=0.22    kva=500   
+
+new transformer.Vadiao phases=3 windings=2 xhl=4.37 %loadloss=1.05 %noloadloss=0.25
+~ wdg=1 bus=211       conn=delta kv=13.8    kva=225         
+~ wdg=2 bus=211b.1.2.3.4 conn=Wye kv=0.22    kva=225 
+
+
+new transformer.Proad phases=3 windings=2 xhl=4.39 %loadloss=.99 %noloadloss=0.23
+~ wdg=1 bus=212a       conn=delta kv=13.8    kva=300         
+~ wdg=2 bus=212b.1.2.3.4  conn=Wye kv=0.22    kva=300
+
+new transformer.Reitoria phases=3 windings=2 xhl=4.66 %loadloss=1.81 %noloadloss=0.18
+~ wdg=1 bus=212a       conn=delta kv=13.8    kva=750         
+~ wdg=2 bus=212c.1.2.3.4       conn=Wye kv=0.22    kva=750
+
+
+new transformer.Ciac phases=3 windings=2 xhl=3.31 %loadloss=1.21 %noloadloss=0.28
+~ wdg=1 bus=218       conn=delta kv=13.8    kva=150         
+~ wdg=2 bus=218b.1.2.3.4       conn=Wye kv=0.22    kva=150
+
+
+new transformer.Ensadist phases=3 windings=2 xhl=4.37 %loadloss=1.05 %noloadloss=0.25
+~ wdg=1 bus=219       conn=delta kv=13.8    kva=225         
+~ wdg=2 bus=219b.1.2.3.4       conn=Wye kv=0.22    kva=225 
+
+
+new transformer.Labnovoquimica phases=3 windings=2 xhl=4.37 %loadloss=1.05 %noloadloss=0.25
+~ wdg=1 bus=222       conn=delta kv=13.8    kva=225         
+~ wdg=2 bus=222b.1.2.3.4       conn=Wye kv=0.22    kva=225 
+
+new transformer.Fisicaens phases=3 windings=2 xhl=3.31 %loadloss=1.21 %noloadloss=0.28
+~ wdg=1 bus=223       conn=delta kv=13.8    kva=150         
+~ wdg=2 bus=223b.1.2.3.4       conn=Wye kv=0.22    kva=150
+
+new transformer.Geociencias phases=3 windings=2 xhl=4.37 %loadloss=1.05 %noloadloss=0.25
+~ wdg=1 bus=224       conn=delta kv=13.8    kva=225         
+~ wdg=2 bus=224b.1.2.3.4       conn=Wye kv=0.22    kva=225 
+
+new transformer.Blocos phases=3 windings=2 xhl=4.37 %loadloss=1.05 %noloadloss=0.25
+~ wdg=1 bus=226       conn=delta kv=13.8    kva=225         
+~ wdg=2 bus=226b.1.2.3.4       conn=Wye kv=0.22    kva=225 
+
+new transformer.MirantedoRio phases=3 windings=2 xhl=4.37 %loadloss=1.05 %noloadloss=0.25
+~ wdg=1 bus=228       conn=delta kv=13.8    kva=225         
+~ wdg=2 bus=228b.1.2.3.4       conn=Wye kv=0.22    kva=225 
+
+
+new transformer.Biblioteca phases=3 windings=2 xhl=4.37 %loadloss=1.05 %noloadloss=0.25
+~ wdg=1 bus=229       conn=delta kv=13.8    kva=225         
+~ wdg=2 bus=229b.1.2.3.4       conn=Wye kv=0.22    kva=225 
+
+new transformer.RU1 phases=3 windings=2 xhl=3.31 %loadloss=1.21 %noloadloss=0.28
+~ wdg=1 bus=234       conn=delta kv=13.8    kva=150         
+~ wdg=2 bus=234b.1.2.3.4      conn=Wye kv=0.22    kva=150
+
+new transformer.RU2 phases=3 windings=2 xhl=4.37 %loadloss=1.05 %noloadloss=0.25
+~ wdg=1 bus=235       conn=delta kv=13.8    kva=225         
+~ wdg=2 bus=235b.1.2.3.4       conn=Wye kv=0.22    kva=225

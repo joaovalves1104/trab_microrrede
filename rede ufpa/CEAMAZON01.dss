@@ -1,0 +1,6 @@
+!Conjunto de Paineis  CEAMAZON01 162 módulos de 335wp
+new PVSystem.CEAMAZON01 phases=3 bus1=B kv=0.220 irrad=1.049 pmpp=54.270  pf=1 kva=55 
+~ conn=Wye %cutin=0.1 %cutout=0.1 effcurve=EficienciaSMA P-TCurve=MyPvsT Daily=CurvadeIrrad Tdaily=Temperatura
+
+New monitor.CEAMAZON01 element=pvsystem.CEAMAZON01 terminal=1 mode=1 ppolar=no
+New monitor.CEAMAZON01_V element=pvsystem.CEAMAZON01 terminal=1 mode=0 ppolar=no

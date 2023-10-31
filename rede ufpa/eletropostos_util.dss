@@ -1,0 +1,96 @@
+//curvas de carga P e Q para cada fase do Eletroposto dados reais
+new loadshape.EVC11 npts=144 minterval=10
+~ Pmult=(file=pevc11.txt, header=no)
+~ Qmult=(file=qevc11.txt, header=no)
+
+new loadshape.EVC21 npts=144 minterval=10
+~ Pmult=(file=pevc21.txt, header=no)
+~ Qmult=(file=qevc21.txt, header=no)
+
+new loadshape.EVC31 npts=144 minterval=10
+~ Pmult=(file=pevc31.txt, header=no)
+~ Qmult=(file=qevc31.txt, header=no)
+
+new loadshape.EVC12 npts=144 minterval=10
+~ Pmult=(file=pevc12.txt, header=no)
+~ Qmult=(file=qevc12.txt, header=no)
+
+new loadshape.EVC22 npts=144 minterval=10
+~ Pmult=(file=pevc22.txt, header=no)
+~ Qmult=(file=qevc22.txt, header=no)
+
+new loadshape.EVC32 npts=144 minterval=10
+~ Pmult=(file=pevc32.txt, header=no)
+~ Qmult=(file=qevc32.txt, header=no)
+
+new loadshape.EVC13 npts=144 minterval=10
+~ Pmult=(file=pevc13.txt, header=no)
+~ Qmult=(file=qevc13.txt, header=no)
+
+new loadshape.EVC23 npts=144 minterval=10
+~ Pmult=(file=pevc23.txt, header=no)
+~ Qmult=(file=qevc23.txt, header=no)
+
+new loadshape.EVC33 npts=144 minterval=10
+~ Pmult=(file=pevc33.txt, header=no)
+~ Qmult=(file=qevc33.txt, header=no)
+
+new loadshape.EVC14 npts=144 minterval=10
+~ Pmult=(file=Peve14.txt, header=no)
+~ Qmult=(file=qevc14.txt, header=no)
+
+new loadshape.EVC24 npts=144 minterval=10
+~ Pmult=(file=pevc24.txt, header=no)
+~ Qmult=(file=qevc24.txt, header=no)
+
+new loadshape.EVC34 npts=144 minterval=10
+~ Pmult=(file=pevc34.txt, header=no)
+~ Qmult=(file=qevc34.txt, header=no)
+
+new loadshape.EVC15 npts=144 minterval=10
+~ Pmult=(file=pevc15.txt, header=no)
+~ Qmult=(file=qevc15.txt, header=no)
+
+new loadshape.EVC25 npts=144 minterval=10
+~ Pmult=(file=pevc25.txt, header=no)
+~ Qmult=(file=qevc25.txt, header=no)
+
+new loadshape.EVC35 npts=144 minterval=10
+~ Pmult=(file=pevc35.txt, header=no)
+~ Qmult=(file=qevc35.txt, header=no)
+
+new loadshape.EVC16 npts=144 minterval=10
+~ Pmult=(file=pevc16.txt, header=no)
+~ Qmult=(file=qevc16.txt, header=no)
+
+new loadshape.EVC26 npts=144 minterval=10
+~ Pmult=(file=pevc26.txt, header=no)
+~ Qmult=(file=qevc26.txt, header=no)
+
+new loadshape.EVC36 npts=144 minterval=10
+~ Pmult=(file=pevc36.txt, header=no)
+~ Qmult=(file=qevc36.txt, header=no)
+
+new loadshape.EVC17 npts=144 minterval=10
+~ Pmult=(file=pevc17.txt, header=no)
+~ Qmult=(file=qevc17.txt, header=no)
+
+new loadshape.EVC27 npts=144 minterval=10
+~ Pmult=(file=pevc27.txt, header=no)
+~ Qmult=(file=qevc27.txt, header=no)
+
+new loadshape.EVC37 npts=144 minterval=10
+~ Pmult=(file=pevc37.txt, header=no)
+~ Qmult=(file=qevc37.txt, header=no)
+
+new loadshape.EVC18 npts=144 minterval=10
+~ Pmult=(file=pevc18.txt, header=no)
+~ Qmult=(file=qevc18.txt, header=no)
+
+new loadshape.EVC28 npts=144 minterval=10
+~ Pmult=(file=pevc28.txt, header=no)
+~ Qmult=(file=qevc28.txt, header=no)
+
+new loadshape.EVC38 npts=144 minterval=10
+~ Pmult=(file=pevc38.txt, header=no)
+~ Qmult=(file=qevc38.txt, header=no)

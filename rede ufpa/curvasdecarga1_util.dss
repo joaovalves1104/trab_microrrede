@@ -1,0 +1,429 @@
+!Curvas de cargas para util
+!Alimentador I
+
+//curvas de carva P e Q para cada fase do Ginasio I baseado no ILC
+new loadshape.GINASIOI1 npts=144 minterval=10
+~ Pmult=(file=PILC_util.csv, column=1, header=no)
+~ Qmult=(file=QILC_util.csv, column=1, header=no)
+
+new loadshape.GINASIOI2 npts=144 minterval=10
+~ Pmult=(file=PILC_util.csv, column=2, header=no)
+~ Qmult=(file=QILC_util.csv, column=2, header=no)
+
+new loadshape.GINASIOI3 npts=144 minterval=10
+~ Pmult=(file=PILC_util.csv, column=3, header=no)
+~ Qmult=(file=QILC_util.csv, column=3, header=no)
+
+
+//curvas de carva P e Q para cada fase do Ginasio II baseado no ILC
+new loadshape.GINASIOII1 npts=144 minterval=10
+~ Pmult=(file=PILC_util.csv, column=1, header=no)
+~ Qmult=(file=QILC_util.csv, column=1, header=no)
+
+new loadshape.GINASIOII2 npts=144 minterval=10
+~ Pmult=(file=PILC_util.csv, column=2, header=no)
+~ Qmult=(file=QILC_util.csv, column=2, header=no)
+
+new loadshape.GINASIOII3 npts=144 minterval=10
+~ Pmult=(file=PILC_util.csv, column=3, header=no)
+~ Qmult=(file=QILC_util.csv, column=3, header=no
+
+//curvas de carva P e Q para cada fase da IFCH  Baseado no ICED
+new loadshape.IFCH1 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=1, header=no)
+~ Qmult=(file=QICED_util.csv, column=1, header=no)
+
+new loadshape.IFCH2 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=2, header=no)
+~ Qmult=(file=QICED_util.csv, column=2, header=no)
+
+new loadshape.IFCH3 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=3, header=no)
+~ Qmult=(file=QICED_util.csv, column=3, header=no)
+
+//curvas de carva P e Q para cada fase do Lab.DNA  Baseado ILC
+new loadshape.LABDNA1 npts=144 minterval=10
+~ Pmult=(file=PILC_util.csv, column=1, header=no)
+~ Qmult=(file=QILC_util.csv, column=1, header=no)
+
+new loadshape.LABDNA2 npts=144 minterval=10
+~ Pmult=(file=PILC_util.csv, column=2, header=no)
+~ Qmult=(file=QILC_util.csv, column=2, header=no)
+
+new loadshape.LABDNA3 npts=144 minterval=10
+~ Pmult=(file=PILC_util.csv, column=3, header=no)
+~ Qmult=(file=QILC_util.csv, column=3, header=no
+
+//curvas de carva P e Q para cada fase do ILC
+new loadshape.ILC1 npts=144 minterval=10
+~ Pmult=(file=PILC_util.csv, column=1, header=no)
+~ Qmult=(file=QILC_util.csv, column=1, header=no)
+
+new loadshape.ILC2 npts=144 minterval=10
+~ Pmult=(file=PILC_util.csv, column=2, header=no)
+~ Qmult=(file=QILC_util.csv, column=2, header=no)
+
+new loadshape.ILC3 npts=144 minterval=10
+~ Pmult=(file=PILC_util.csv, column=3, header=no)
+~ Qmult=(file=QILC_util.csv, column=3, header=no
+
+
+//curvas de carva P e Q para cada fase do Pos de Psicologia Baseado no ILC
+new loadshape.PPscicologia1 npts=144 minterval=10
+~ Pmult=(file=PILC_util.csv, column=1, header=no)
+~ Qmult=(file=QILC_util.csv, column=1, header=no)
+
+new loadshape.PPscicologia2 npts=144 minterval=10
+~ Pmult=(file=PILC_util.csv, column=2, header=no)
+~ Qmult=(file=QILC_util.csv, column=2, header=no)
+
+new loadshape.PPscicologia3 npts=144 minterval=10
+~ Pmult=(file=PILC_util.csv, column=3, header=no)
+~ Qmult=(file=QILC_util.csv, column=3, header=no
+
+
+//curvas de carva P e Q para cada fase do Capacit baseado no ICED
+new loadshape.Capacit1 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=1, header=no)
+~ Qmult=(file=QICED_util.csv, column=1, header=no)
+
+new loadshape.Capacit2 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=2, header=no)
+~ Qmult=(file=QICED_util.csv, column=2, header=no)
+
+new loadshape.Capacit3 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=3, header=no)
+~ Qmult=(file=QICED_util.csv, column=3, header=no)
+
+//curvas de carva P e Q para cada fase do NCADR  Baseado ILC
+new loadshape.NCADR1 npts=144 minterval=10
+~ Pmult=(file=PILC_util.csv, column=1, header=no)
+~ Qmult=(file=QILC_util.csv, column=1, header=no)
+
+new loadshape.NCADR2 npts=144 minterval=10
+~ Pmult=(file=PILC_util.csv, column=2, header=no)
+~ Qmult=(file=QILC_util.csv, column=2, header=no)
+
+new loadshape.NCADR3 npts=144 minterval=10
+~ Pmult=(file=PILC_util.csv, column=3, header=no)
+~ Qmult=(file=QILC_util.csv, column=3, header=no
+
+//curvas de carva P e Q para cada fase da Ampliação do IFCH  Baseado no CEAMAZON
+new loadshape.AmplIFCH1 npts=144 minterval=10
+~ Pmult=(file=Pceamazon_util.csv, column=1, header=no)
+~ Qmult=(file=Qceamazon_util.csv, column=1, header=no)
+
+new loadshape.AmplIFCH2 npts=144 minterval=10
+~ Pmult=(file=Pceamazon_util.csv, column=2, header=no)
+~ Qmult=(file=Qceamazon_util.csv, column=2, header=no)
+
+new loadshape.AmplIFCH3 npts=144 minterval=10
+~ Pmult=(file=Pceamazon_util.csv, column=3, header=no)
+~ Qmult=(file=Qceamazon_util.csv, column=3, header=no)
+
+
+//curvas de carva P e Q para cada fase do ICEN Baseado PROAD
+new loadshape.ICEN1 npts=144 minterval=10
+~ Pmult=(file=Pproad_util.csv, column=1, header=no)
+~ Qmult=(file=Qproad_util.csv, column=1, header=no)
+
+new loadshape.ICEN2 npts=144 minterval=10
+~ Pmult=(file=Pproad_util.csv, column=2, header=no)
+~ Qmult=(file=Qproad_util.csv, column=2, header=no)
+
+new loadshape.ICEN3 npts=144 minterval=10
+~ Pmult=(file=Pproad_util.csv, column=3, header=no)
+~ Qmult=(file=Qproad_util.csv, column=3, header=no)
+
+//curvas de carva P e Q para cada fase do Ampliação do ICEN Baseado no ILC
+new loadshape.AmpICEN1 npts=144 minterval=10
+~ Pmult=(file=PILC_util.csv, column=1, header=no)
+~ Qmult=(file=QILC_util.csv, column=1, header=no)
+
+new loadshape.AmpICEN2 npts=144 minterval=10
+~ Pmult=(file=PILC_util.csv, column=2, header=no)
+~ Qmult=(file=QILC_util.csv, column=2, header=no)
+
+new loadshape.AmpICEN3 npts=144 minterval=10
+~ Pmult=(file=PILC_util.csv, column=3, header=no)
+~ Qmult=(file=QILC_util.csv, column=3, header=no
+
+//curvas de carva P e Q para cada fase do Ctic Baseado NO ILC
+new loadshape.Ctic1 npts=144 minterval=10
+~ Pmult=(file=PILC_util.csv, column=1, header=no)
+~ Qmult=(file=QILC_util.csv, column=1, header=no)
+
+new loadshape.Ctic2 npts=144 minterval=10
+~ Pmult=(file=PILC_util.csv, column=2, header=no)
+~ Qmult=(file=QILC_util.csv, column=2, header=no)
+
+new loadshape.Ctic3 npts=144 minterval=10
+~ Pmult=(file=PILC_util.csv, column=3, header=no)
+~ Qmult=(file=QILC_util.csv, column=3, header=no
+
+
+//curvas de carva P e Q para cada fase do Bioterio Baseado no ICB=ICB1+ICB3 DO SISGEE
+new loadshape.Bioterio1 npts=144 minterval=10
+~ mult=(file=PICB_util.csv, column=1, header=yes)
+~ Qmult=(file=QICB_util.csv, column=1, header=yes)
+
+new loadshape.Bioterio2 npts=144 minterval=10
+~ mult=(file=PICB_util.csv, column=2, header=yes)
+~ Qmult=(file=QICB_util.csv, column=2, header=yes)
+
+new loadshape.Bioterio3 npts=144 minterval=10
+~ mult=(file=PICB_util.csv, column=3, header=yes)
+~ Qmult=(file=QICB_util.csv, column=3, header=yes)
+
+
+//curvas de carva P e Q para cada fase do Museu baseado no ICED
+new loadshape.Museu1 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=1, header=no)
+~ Qmult=(file=QICED_util.csv, column=1, header=no)
+
+new loadshape.Museu2 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=2, header=no)
+~ Qmult=(file=QICED_util.csv, column=2, header=no)
+
+new loadshape.Museu3 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=3, header=no)
+~ Qmult=(file=QICED_util.csv, column=3, header=no)
+
+//curvas de carva P e Q para cada fase do FADESP Baseado no ILC
+new loadshape.FADESP1 npts=144 minterval=10
+~ mult=(file=PILC_util.csv, column=1, header=yes)
+~ Qmult=(file=QILC_util.csv, column=1, header=yes)
+
+new loadshape.FADESP2 npts=144 minterval=10
+~ mult=(file=PILC_util.csv, column=2, header=yes)
+~ Qmult=(file=QILC_util.csv, column=2, header=yes)
+
+new loadshape.FADESP3 npts=144 minterval=10
+~ mult=(file=PILC_util.csv, column=3, header=yes)
+~ Qmult=(file=QILC_util.csv, column=3, header=yes)
+
+
+//curvas de carva P e Q para cada fase do ICB=ICB1+ICB3 DO SISGEE
+new loadshape.ICB1 npts=144 minterval=10
+~ mult=(file=PICB_util.csv, column=1, header=yes)
+~ Qmult=(file=QICB_util.csv, column=1, header=yes)
+
+new loadshape.ICB2 npts=144 minterval=10
+~ mult=(file=PICB_util.csv, column=2, header=yes)
+~ Qmult=(file=QICB_util.csv, column=2, header=yes)
+
+new loadshape.ICB3 npts=144 minterval=10
+~ mult=(file=PICB_util.csv, column=3, header=yes)
+~ Qmult=(file=QICB_util.csv, column=3, header=yes)
+
+//curvas de carva P e Q para cada fase do Salas de Aula Baseado no ILC
+new loadshape.SalasdeaulaICB1 npts=144 minterval=10
+~ mult=(file=PILC_util.csv, column=1, header=yes)
+~ Qmult=(file=QILC_util.csv, column=1, header=yes)
+
+new loadshape.SalasdeaulaICB2 npts=144 minterval=10
+~ mult=(file=PILC_util.csv, column=2, header=yes)
+~ Qmult=(file=QILC_util.csv, column=2, header=yes)
+
+new loadshape.SalasdeaulaICB3 npts=144 minterval=10
+~ mult=(file=PILC_util.csv, column=3, header=yes)
+~ Qmult=(file=QILC_util.csv, column=3, header=yes)
+
+//curvas de carva P e Q para cada fase do Extracta Baseado ICED
+new loadshape.Extracta1 npts=144 minterval=10
+~ mult=(file=PICED_util.csv, column=1, header=yes)
+~ Qmult=(file=QICED_util.csv, column=1, header=yes)
+
+new loadshape.Extracta2 npts=144 minterval=10
+~ mult=(file=PICED_util.csv, column=2, header=yes)
+~ Qmult=(file=QICED_util.csv, column=2, header=yes)
+
+new loadshape.Extracta3 npts=144 minterval=10
+~ mult=(file=PICED_util.csv, column=3, header=yes)
+~ Qmult=(file=QICED_util.csv, column=3, header=yes)
+
+//curvas de carva P e Q para cada fase do Microscopia Baseado na nutrição
+new loadshape.Microscopia1 npts=144 minterval=10
+~ mult=(file=Pnutricao_util.csv, column=1, header=yes)
+~ Qmult=(file=Qnutricao_util.csv, column=1, header=yes)
+
+new loadshape.Microscopia2 npts=144 minterval=10
+~ mult=(file=Pnutricao_util.csv, column=2, header=yes)
+~ Qmult=(file=Qnutricao_util.csv, column=2, header=yes)
+
+new loadshape.Microscopia3 npts=144 minterval=10
+~ mult=(file=Pnutricao_util.csv, column=3, header=yes)
+~ Qmult=(file=Qnutricao_util.csv, column=3, header=yes
+
+//curvas de carva P e Q para cada fase do Biblioteca Geociencias Baseado no ICED
+new loadshape.BibliotecaGeo1 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=1, header=yes)
+~ Qmult=(file=QICED_util.csv, column=1, header=yes)
+
+new loadshape.BibliotecaGeo2 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=2, header=yes)
+~ Qmult=(file=QICED_util.csv, column=2, header=yes)
+
+new loadshape.BibliotecaGeo3 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=3, header=yes)
+~ Qmult=(file=QICED_util.csv, column=3, header=yes)
+
+
+//curvas de carva P e Q para cada fase do Lab de Química Pesq. Baseado Fisica Pesquisa
+new loadshape.Labquimicapesuisa1 npts=144 minterval=10
+~ Pmult=(file=Pfisica_pesquisa_util.csv, column=1, header=yes)
+~ Qmult=(file=Qfisica_pesquisa_util.csv, column=1, header=yes)
+
+new loadshape.Labquimicapesuisa2 npts=144 minterval=10
+~ Pmult=(file=Pfisica_pesquisa_util.csv, column=2, header=yes)
+~ Qmult=(file=Qfisica_pesquisa_util.csv, column=2, header=yes)
+
+new loadshape.Labquimicapesuisa3 npts=144 minterval=10
+~ Pmult=(file=Pfisica_pesquisa_util.csv, column=3, header=yes)
+~ Qmult=(file=Qfisica_pesquisa_util.csv, column=3, header=yes)
+
+//curvas de carva P e Q para cada fase do PavPB Baseado ICED
+new loadshape.PavPB1 npts=144 minterval=10
+~ mult=(file=PICED_util.csv, column=1, header=yes)
+~ Qmult=(file=QICED_util.csv, column=1, header=yes)
+
+new loadshape.PavPB2 npts=144 minterval=10
+~ mult=(file=PICED_util.csv, column=2, header=yes)
+~ Qmult=(file=QICED_util.csv, column=2, header=yes)
+
+new loadshape.PavPB3 npts=144 minterval=10
+~ mult=(file=PICED_util.csv, column=3, header=yes)
+~ Qmult=(file=QICED_util.csv, column=3, header=yes)
+
+//curvas de carva P e Q para cada fase do Lab.Geo.Pesq. baseado no ILC
+new loadshape.Geopesquisa1 npts=144 minterval=10
+~ mult=(file=PILC_util.csv, column=1, header=yes)
+~ Qmult=(file=QILC_util.csv, column=1, header=yes)
+
+new loadshape.Geopesquisa2 npts=144 minterval=10
+~ mult=(file=PILC_util.csv, column=2, header=yes)
+~ Qmult=(file=QILC_util.csv, column=2, header=yes)
+
+new loadshape.Geopesquisa3 npts=144 minterval=10
+~ mult=(file=PILC_util.csv, column=3, header=yes)
+~ Qmult=(file=QILC_util.csv, column=3, header=yes)
+
+//curvas de carva P e Q para cada fase do Meteorologia Baseado Fisica Pesquisa
+new loadshape.Meteorologia1 npts=144 minterval=10
+~ Pmult=(file=Pfisica_pesquisa_util.csv, column=1, header=yes)
+~ Qmult=(file=Qfisica_pesquisa_util.csv, column=1, header=yes)
+
+new loadshape.Meteorologia2 npts=144 minterval=10
+~ Pmult=(file=Pfisica_pesquisa_util.csv, column=2, header=yes)
+~ Qmult=(file=Qfisica_pesquisa_util.csv, column=2, header=yes)
+
+new loadshape.Meteorologia3 npts=144 minterval=10
+~ Pmult=(file=Pfisica_pesquisa_util.csv, column=3, header=yes)
+~ Qmult=(file=Qfisica_pesquisa_util.csv, column=3, header=yes)
+
+//curvas de carva P e Q para cada fase do Fisica Pesquisa
+new loadshape.Fisicapesquisa1 npts=144 minterval=10
+~ Pmult=(file=Pfisica_pesquisa_util.csv, column=1, header=yes)
+~ Qmult=(file=Qfisica_pesquisa_util.csv, column=1, header=yes)
+
+new loadshape.Fisicapesquisa2 npts=144 minterval=10
+~ Pmult=(file=Pfisica_pesquisa_util.csv, column=2, header=yes)
+~ Qmult=(file=Qfisica_pesquisa_util.csv, column=2, header=yes)
+
+new loadshape.Fisicapesquisa3 npts=144 minterval=10
+~ Pmult=(file=Pfisica_pesquisa_util.csv, column=3, header=yes)
+~ Qmult=(file=Qfisica_pesquisa_util.csv, column=3, header=yes)
+
+//curvas de carva P e Q para cada fase do Lab de Física Baseado Fisica Pesquisa
+new loadshape.Labfisica1 npts=144 minterval=10
+~ Pmult=(file=Pfisica_pesquisa_util.csv, column=1, header=yes)
+~ Qmult=(file=Qfisica_pesquisa_util.csv, column=1, header=yes)
+
+new loadshape.Labfisica2 npts=144 minterval=10
+~ Pmult=(file=Pfisica_pesquisa_util.csv, column=2, header=yes)
+~ Qmult=(file=Qfisica_pesquisa_util.csv, column=2, header=yes)
+
+new loadshape.Labfisica3 npts=144 minterval=10
+~ Pmult=(file=Pfisica_pesquisa_util.csv, column=3, header=yes)
+~ Qmult=(file=Qfisica_pesquisa_util.csv, column=3, header=yes)
+
+
+//curvas de carva P e Q para cada fase do Lab. E salas de aulas NPADC Baseado ICED
+new loadshape.SalasNPADC1 npts=144 minterval=10
+~ mult=(file=PICED_util.csv, column=1, header=yes)
+~ Qmult=(file=QICED_util.csv, column=1, header=yes)
+
+new loadshape.SalasNPADC2 npts=144 minterval=10
+~ mult=(file=PICED_util.csv, column=2, header=yes)
+~ Qmult=(file=QICED_util.csv, column=2, header=yes)
+
+new loadshape.SalasNPADC3 npts=144 minterval=10
+~ mult=(file=PICED_util.csv, column=3, header=yes)
+~ Qmult=(file=QICED_util.csv, column=3, header=yes)
+
+//curvas de carva P e Q para cada fase do Proxi. NPADC I Baseado no ILC
+new loadshape.ProximpNPADCI1 npts=144 minterval=10
+~ mult=(file=PILC_util.csv, column=1, header=yes)
+~ Qmult=(file=QILC_util.csv, column=1, header=yes)
+
+new loadshape.ProximpNPADCI2 npts=144 minterval=10
+~ mult=(file=PILC_util.csv, column=2, header=yes)
+~ Qmult=(file=QILC_util.csv, column=2, header=yes)
+
+new loadshape.ProximpNPADCI3 npts=144 minterval=10
+~ mult=(file=PILC_util.csv, column=3, header=yes)
+~ Qmult=(file=QILC_util.csv, column=3, header=yes)
+
+//curvas de carva P e Q para cada fase do Proxi. NPADC II Baseado no ILC
+new loadshape.ProximpNPADCII1 npts=144 minterval=10
+~ mult=(file=PILC_util.csv, column=1, header=yes)
+~ Qmult=(file=QILC_util.csv, column=1, header=yes)
+
+new loadshape.ProximpNPADCII2 npts=144 minterval=10
+~ mult=(file=PILC_util.csv, column=2, header=yes)
+~ Qmult=(file=QILC_util.csv, column=2, header=yes)
+
+new loadshape.ProximpNPADCII3 npts=144 minterval=10
+~ mult=(file=PILC_util.csv, column=3, header=yes)
+~ Qmult=(file=QILC_util.csv, column=3, header=yes)
+
+//curvas de carva P e Q para cada fase do Quimica e Pesquisa Baseado no Fisica Pesquisa
+new loadshape.QuimicaEpesquisa1 npts=144 minterval=10
+~ mult=(file=Pfisica_pesquisa_util.csv, column=1, header=yes)
+~ Qmult=(file=Qfisica_pesquisa_util.csv, column=1, header=yes)
+
+new loadshape.QuimicaEpesquisa2 npts=144 minterval=10
+~ mult=(file=Pfisica_pesquisa_util.csv, column=2, header=yes)
+~ Qmult=(file=Qfisica_pesquisa_util.csv, column=2, header=yes)
+
+new loadshape.QuimicaEpesquisa3 npts=144 minterval=10
+~ mult=(file=Pfisica_pesquisa_util.csv, column=3, header=yes)
+~ Qmult=(file=Qfisica_pesquisa_util.csv, column=3, header=yes)
+
+//curvas de carva P e Q para cada fase do NPADC Baseado no ILC
+new loadshape.NPADC1 npts=144 minterval=10
+~ mult=(file=PILC_util.csv, column=1, header=yes)
+~ Qmult=(file=Qilc.csv, column=1, header=yes)
+
+new loadshape.NPADC2 npts=144 minterval=10
+~ mult=(file=PILC_util.csv, column=2, header=yes)
+~ Qmult=(file=QILC_util.csv, column=2, header=yes)
+
+new loadshape.NPADC3 npts=144 minterval=10
+~ mult=(file=PILC_util.csv, column=3, header=yes)
+~ Qmult=(file=QILC_util.csv, column=3, header=yes)
+
+//curvas de carva P e Q para cada fase do Quimica Ensino Baseado ILC
+new loadshape.QuimicaEnsino1 npts=144 minterval=10
+~ Pmult=(file=PILC_util.csv, column=1, header=yes)
+~ Qmult=(file=QILC_util.csv, column=1, header=yes)
+
+new loadshape.QuimicaEnsino2 npts=144 minterval=10
+~ Pmult=(file=PILC_util.csv, column=2, header=yes)
+~ Qmult=(file=QILC_util.csv, column=2, header=yes)
+
+new loadshape.QuimicaEnsino3 npts=144 minterval=10
+~ Pmult=(file=PILC_util.csv, column=3, header=yes)
+~ Qmult=(file=QILC_util.csv, column=3, header=yes)
+
+

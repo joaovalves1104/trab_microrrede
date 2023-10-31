@@ -1,0 +1,152 @@
+
+!definindo a geometrica do poste do Tipo N (barra) 1=A, 2=B E 3=C
+/*new linegeometry.PN nconds=3 nphases=3
+~cond=1 Wire=Phase X=0.9 H=11 units=m
+~cond=2 Wire=Phase X=-0.3 H=11 units=m
+~cond=3 Wire=Phase X=-0.9 H=11 units=m
+
+!definindo a geometrica do poste do Tipo CL (barra) 1=A, 2=B E 3=C
+new linegeometry.PCL nconds=3 nphases=3
+~cond=1 Wire=Phase X=0.22 H=11 units=m
+~cond=2 Wire=Phase X=0.15 H=10.85 units=m
+~cond=3 Wire=Phase X=0.08 H=11 units=m
+
+!definindo a geometrica do poste do Tipo CC (barra) 1=A, 2=B E 3=C
+new linegeometry.PCC nconds=3 nphases=3
+~cond=1 Wire=Phase X=0.3 H=11 units=m
+~cond=2 Wire=Phase X=0.225 H=10.85 units=m
+~cond=3 Wire=Phase X=0.15 H=11 units=m
+
+!definindo a geometrica do poste do Tipo CU (barra) 1=A, 2=B E 3=C
+new linegeometry.PCU nconds=3 nphases=3
+~cond=1 Wire=Phase X=0.5 H=11 units=m
+~cond=2 Wire=Phase X=0.0 H=10.85 units=m
+~cond=3 Wire=Phase X=-0.5 H=11 units=m
+
+
+!definindo a geometrica do poste do Tipo CJ (barra) 1=A, 2=B E 3=C
+new linegeometry.PCJ nconds=3 nphases=3
+~cond=1 Wire=Phase X=1.32 H=11 units=m
+~cond=2 Wire=Phase X=1.25 H=10.85 units=m
+~cond=3 Wire=Phase X=1.18 H=11 units=m
+*/
+
+
+!Percurso entre a barra Referencia e 201 com cabo 95 subterraneo
+new linegeometry.200201 nconds=3 nphases=3
+~ cond=1 Wire=#95 X=0.5 H=0.001 units=m
+~ cond=2 Wire=#95 X=0.0 H=.001 units=m
+~ cond=3 Wire=#95 X=-0.5 H=.001 units=m
+
+!Percurso entre aa barras 201 e 202 com cabo 95 com perfil em U 11 metros
+new linegeometry.201202 nconds=3 nphases=3
+~ cond=1 Wire=#95 X=0.5 H=11 units=m
+~ cond=2 Wire=#95 X=0.0 H=10.85 units=m
+~ cond=3 Wire=#95 X=-0.5 H=11 units=m
+
+!Percurso entre as barras 202 e 203 com cabo 95 com perfil em L 12 metros
+new linegeometry.202203 nconds=3 nphases=3
+~ cond=1 Wire=#95 X=0.22 H=12 units=m
+~ cond=2 Wire=#95 X=0.15 H=11.85 units=m
+~ cond=3 Wire=#95 X=0.08 H=12 units=m
+
+!Repete o perfil do percurso anterior
+new linegeometry.203204 like=202203
+
+!Percuso entre a barra 204 e 204a com cabo 35 com perfil subterraneo
+new linegeometry.204204a nconds=3 nphases=3
+~ cond=1 Wire=#35 X=0.5 H=.001 units=m
+~ cond=2 Wire=#35 X=0.0 H=.001 units=m
+~ cond=3 Wire=#35 X=-0.5 H=.001 units=m
+
+new linegeometry.204205 like=202203
+new linegeometry.205206 like=202203
+
+!Percuso entre a barra 206 e 207 com cabo 35 com perfil em C em 11 metros
+new linegeometry.206207 nconds=3 nphases=3
+~ cond=1 Wire=#35 X=0.3 H=11 units=m
+~ cond=2 Wire=#35 X=0.225 H=10.85 units=m
+~ cond=3 Wire=#35 X=0.15 H=11 units=m
+
+new linegeometry.207208 like=206207
+
+!Percuso entre a barra 208 e 209 com cabo 35 com perfil em L em 11 metros
+new linegeometry.208209 nconds=3 nphases=3
+~ cond=1 Wire=#35 X=0.22 H=11 units=m
+~ cond=2 Wire=#35 X=0.15 H=10.85 units=m
+~ cond=3 Wire=#35 X=0.08 H=11 units=m
+
+new linegeometry.209210 like=206207
+
+!Percuso entre a barra 210 e 211 com cabo 35 com perfil em U 11 metros
+new linegeometry.210211 nconds=3 nphases=3
+~ cond=1 Wire=#35 X=0.5 H=11 units=m
+~ cond=2 Wire=#35 X=0.0 H=10.85 units=m
+~ cond=3 Wire=#35 X=-0.5 H=11 units=m
+
+
+new linegeometry.206212 like=201202
+
+!Percuso entre a barra 212 e 212a com cabo 35 com perfil subterraneo
+new linegeometry.212212a nconds=3 nphases=3
+~ cond=1 Wire=#35 X=0.5 H=.001 units=m
+~ cond=2 Wire=#35 X=0.0 H=.001 units=m
+~ cond=3 Wire=#35 X=-0.5 H=.001 units=m
+
+!Percuso entre a barra 212 e 213 com cabo 95 com perfil em L em 11 metros
+new linegeometry.212213 nconds=3 nphases=3
+~ cond=1 Wire=#95 X=0.22 H=11 units=m
+~ cond=2 Wire=#95 X=0.15 H=10.85 units=m
+~ cond=3 Wire=#95 X=0.08 H=11 units=m
+
+new linegeometry.213214 like=212213
+
+!Percuso entre a barra 214 e 215 com cabo 95 com perfil em C em 11 metros
+new linegeometry.214215 nconds=3 nphases=3
+~ cond=1 Wire=#95 X=0.3 H=11 units=m
+~ cond=2 Wire=#95 X=0.225 H=10.85 units=m
+~ cond=3 Wire=#95 X=0.15 H=11 units=m
+
+new linegeometry.215216 like=214215
+
+new linegeometry.216217 like=212213
+
+new linegeometry.217218 like=210211
+
+new linegeometry.217219 like=212213
+
+new linegeometry.219220 like=212213
+
+!Percuso entre a barra 220 e 221 com cabo 35 com perfil em U 11 metros
+new linegeometry.220221 nconds=3 nphases=3
+~ cond=1 Wire=#35 X=0.5 H=11 units=m
+~ cond=2 Wire=#35 X=0.0 H=10.85 units=m
+~ cond=3 Wire=#35 X=-0.5 H=11 units=m
+
+new linegeometry.221222 like=220221
+
+new linegeometry.221223 like=206207
+
+new linegeometry.223224 like=220221
+
+new linegeometry.220225 like=201202
+
+new linegeometry.225226 like=220221
+
+new linegeometry.226227 like=208209
+
+new linegeometry.227228 like=208209
+
+new linegeometry.228229 like=220221
+
+new linegeometry.227230 like=206207
+
+new linegeometry.230231 like=208209
+
+new linegeometry.231232 like=220221
+
+new linegeometry.232233 like=206207
+
+new linegeometry.233234 like=220221
+
+new linegeometry.233235 like=220221

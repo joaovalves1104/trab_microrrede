@@ -1,0 +1,22 @@
+!Modelagem do Alimentador da rede Básico II
+
+
+
+!redirecionar a geometria dos cabos
+redirect geometriadoscabos2.dss
+
+!LINES DO Alimentador
+redirect linhas2.dss
+
+!SE's do alimentador
+redirect trafos2.dss 
+
+!redireciona as curvas de carga
+redirect curvasdecarga2_util.dss
+
+
+!rediriona as cargas 
+redirect cargas2_util.dss 
+
+
+

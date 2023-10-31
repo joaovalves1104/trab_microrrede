@@ -1,0 +1,79 @@
+
+/*trafo-> Modelados com as potências, impe e perdas (núcleo e totais, indiretamente no cobre)
+Valores coletados nos datasheets da WEG
+cálculo do XHL, loadloss e noloadloss no MATLAB
+*/
+
+!SE's do alimentador IV da UFPA (Saúde)
+
+new transformer.Poema phases=3 windings=2 xhl=3.23 %loadloss=1.33 %noloadloss=0.34
+~ wdg=1 bus=424  conn=delta kv=13.8    kva=75         
+~ wdg=2 bus=424b.1.2.3.4 conn=Wye kv=0.22    kva=75    
+
+new transformer.Nova phases=3 windings=2 xhl=3.15 %loadloss=1.51 %noloadloss=0.37
+~ wdg=1 bus=433  conn=delta kv=13.8    kva=45         
+~ wdg=2 bus=433b.1.2.3.4 conn=Wye kv=0.22    kva=45
+
+new transformer.Naval phases=3 windings=2 xhl=4.37 %loadloss=1.05 %noloadloss=0.25
+~ wdg=1 bus=438       conn=delta kv=13.8    kva=225         
+~ wdg=2 bus=438b.1.2.3.4      conn=Wye kv=0.22    kva=225 
+
+new transformer.ConstrNaval phases=3 windings=2 xhl=3.23 %loadloss=1.33 %noloadloss=0.34
+~ wdg=1 bus=441  conn=delta kv=13.8    kva=75         
+~ wdg=2 bus=441b.1.2.3.4 conn=Wye kv=0.22    kva=75
+
+new transformer.Farmacia phases=3 windings=2 xhl=4.39 %loadloss=0.99 %noloadloss=0.23
+~ wdg=1 bus=445       conn=delta kv=13.8    kva=300         
+~ wdg=2 bus=445b.1.2.3.4       conn=Wye kv=0.22    kva=300
+
+new transformer.Odonto phases=3 windings=2 xhl=4.39 %loadloss=0.99 %noloadloss=0.23
+~ wdg=1 bus=449a       conn=delta kv=13.8    kva=300         
+~ wdg=2 bus=449b.1.2.3.4       conn=Wye kv=0.22    kva=300
+
+new transformer.Salasdeaulasaude phases=3 windings=2 xhl=3.31 %loadloss=1.21 %noloadloss=0.28
+~ wdg=1 bus=454       conn=delta kv=13.8    kva=150         
+~ wdg=2 bus=454b.1.2.3.4       conn=Wye kv=0.22    kva=150
+
+new transformer.Gedae phases=3 windings=2 xhl=3.23 %loadloss=1.33 %noloadloss=0.34
+~ wdg=1 bus=456       conn=delta kv=13.8    kva=112.5         
+~ wdg=2 bus=456b.1.2.3.4       conn=Wye kv=0.22    kva=112.5 
+
+new transformer.NutriEFisio phases=3 windings=2 xhl=4.37 %loadloss=1.05 %noloadloss=0.25
+~ wdg=1 bus=457       conn=delta kv=13.8    kva=225         
+~ wdg=2 bus=457b.1.2.3.4       conn=Wye kv=0.22    kva=225 
+
+new transformer.Dermatologia phases=3 windings=2 xhl=3.31 %loadloss=1.21 %noloadloss=0.28
+~ wdg=1 bus=462       conn=delta kv=13.8    kva=150         
+~ wdg=2 bus=462b.1.2.3.4       conn=Wye kv=0.22    kva=150
+
+new transformer.Betina1 phases=3 windings=2 xhl=4.37 %loadloss=1.05 %noloadloss=0.25
+~ wdg=1 bus=465       conn=delta kv=13.8    kva=225         
+~ wdg=2 bus=465b.1.2.3.4       conn=Wye kv=0.22    kva=225 
+
+new transformer.Betina2 phases=3 windings=2 xhl=4.39 %loadloss=0.99 %noloadloss=0.23
+~ wdg=1 bus=465       conn=delta kv=13.8    kva=300         
+~ wdg=2 bus=465c.1.2.3.4       conn=Wye kv=0.22    kva=300
+
+new transformer.Betina3 phases=3 windings=2 xhl=3.08 %loadloss=1.66 %noloadloss=0.2
+~ wdg=1 bus=465       conn=delta kv=13.8    kva=500         
+~ wdg=2 bus=465d.1.2.3.4       conn=Wye kv=0.22    kva=500
+
+new transformer.Medicina phases=3 windings=2 xhl=3.31 %loadloss=1.21 %noloadloss=0.28
+~ wdg=1 bus=469       conn=delta kv=13.8    kva=150         
+~ wdg=2 bus=469b.1.2.3.4      conn=Wye kv=0.22    kva=150
+
+new transformer.Genomica phases=3 windings=2 xhl=3.31 %loadloss=1.21 %noloadloss=0.28
+~ wdg=1 bus=471       conn=delta kv=13.8    kva=150         
+~ wdg=2 bus=471b.1.2.3.4      conn=Wye kv=0.22    kva=150
+
+new transformer.Ceamazon phases=3 windings=2 xhl=3.31 %loadloss=1.21 %noloadloss=0.28
+~ wdg=1 bus=477       conn=delta kv=13.8    kva=150         
+~ wdg=2 bus=477b.1.2.3.4      conn=Wye kv=0.22    kva=150
+
+new transformer.Leite phases=3 windings=2 xhl=3.23 %loadloss=1.33 %noloadloss=0.34
+~ wdg=1 bus=480  conn=delta kv=13.8    kva=75         
+~ wdg=2 bus=480b.1.2.3.4 conn=Wye kv=0.22    kva=75
+
+new transformer.PCT phases=3 windings=2 xhl=3.31 %loadloss=1.21 %noloadloss=0.28
+~ wdg=1 bus=489       conn=delta kv=13.8    kva=150         
+~ wdg=2 bus=489b.1.2.3.4      conn=Wye kv=0.22    kva=150

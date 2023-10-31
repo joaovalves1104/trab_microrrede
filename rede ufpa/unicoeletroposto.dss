@@ -1,0 +1,40 @@
+new loadshape.eletroposto01 npts=144 minterval=10
+~ Pmult=(0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 1.0135 1.0143 1.0188 1.0188 1.0227 1.0173 1.0223 1.0143 1.0120 1.0105 1.0116 1.0105 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000)
+~ Qmult=(0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 -0.3951 1.0390 1.1073 1.1121 1.0292 1.1024 1.0585 0.9707 0.9365 0.9365 0.9756 1.0048 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000)
+
+
+new transformer.trafoeletroposto01 phases=3 windings=2 %imag=2.5 %loadloss=1.3 %noloadloss=0.346 xhl=3.236
+~ wdg=1 bus=476       conn=delta kv=13.8    kva=112.5         
+~ wdg=2 bus=476eabc.1.2.3.4       conn=Wye kv=0.22    kva=112.5
+
+
+//New Load.476epl1 Bus1=476eabc.1.4 Phases=1 Conn=wye Model=1 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto01
+//New Load.476epl2 Bus1=476eabc.2.4 Phases=1 Conn=wye Model=1 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto01
+//New Load.476epl3 Bus1=476eabc.3.4 Phases=1 Conn=wye Model=1 kv=0.127 kw=26.215979 kvar=2.050109 Vminpu=0.60 daily=eletroposto01
+
+//New Load.476epl1 Bus1=476eabc.1.4 Phases=1 Conn=wye Model=1 kv=0.127 kw=0 kvar=0 Vminpu=0.60 daily=eletroposto01
+//New Load.476epl2 Bus1=476eabc.2.4 Phases=1 Conn=wye Model=1 kv=0.127 kw=0 kvar=0 Vminpu=0.60 daily=eletroposto01
+//New Load.476epl3 Bus1=476eabc.3.4 Phases=1 Conn=wye Model=1 kv=0.127 kw=0 kvar=0 Vminpu=0.60 daily=eletroposto01
+
+//New Load.476epl1 Bus1=476eabc.1.4 Phases=1 Conn=wye Model=1 kv=0.127 kw=0 kvar=0 Vminpu=0.60 daily=eletroposto01
+//New Load.476epl2 Bus1=476eabc.2.4 Phases=1 Conn=wye Model=1 kv=0.127 kw=0 kvar=0 Vminpu=0.60 daily=eletroposto01
+//New Load.476epl3 Bus1=476eabc.3.4 Phases=1 Conn=wye Model=1 kv=0.127 kw=0 kvar=0 Vminpu=0.60 daily=eletroposto01
+
+New Load.476epl1 Bus1=476eabc.1.4 Phases=1 Conn=wye Model=1 kv=0.127 kw=7.34 kvar=0.54 Vminpu=0.60 daily=eletroposto01
+New Load.476epl2 Bus1=476eabc.2.4 Phases=1 Conn=wye Model=1 kv=0.127 kw=7.34 kvar=0.54 Vminpu=0.60 daily=eletroposto01
+New Load.476epl3 Bus1=476eabc.3.4 Phases=1 Conn=wye Model=1 kv=0.127 kw=7.34 kvar=0.54 Vminpu=0.60 daily=eletroposto01
+
+
+New monitor.eletropostoceamazon_power element=transformer.trafoeletroposto01 terminal=1 mode=1 ppolar=no
+New monitor.eletropostoceamazon_voltage element=transformer.trafoeletroposto01 terminal=1 mode=0
+New monitor.eletropostoceamazon_loss element=transformer.trafoeletroposto01 terminal=1 mode=9
+
+New monitor.eletropostoceamazon_power2 element=transformer.trafoeletroposto01 terminal=2 mode=1 ppolar=no
+New monitor.eletropostoceamazon_voltage2 element=transformer.trafoeletroposto01 terminal=2 mode=0
+New monitor.eletropostoceamazon_loss2 element=transformer.trafoeletroposto01 terminal=2 mode=9
+
+/*
+New monitor.eletropostoceamazon_power3 element=transformer.IFCH terminal=1 mode=1 ppolar=no
+New monitor.eletropostoceamazon_voltage3 element=transformer.IFCH terminal=1 mode=0
+New monitor.eletropostoceamazon_loss3 element=transformer.IFCH terminal=1 mode=9
+*/

@@ -1,0 +1,120 @@
+//estacionamento dos pavilhões de aula humanas
+New Load.352epl1 Bus1=352.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.352epl2 Bus1=352.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.352epl3 Bus1=352.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+
+//estacionamento do itec
+New Load.358epl1 Bus1=358.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.358epl2 Bus1=358.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.358epl3 Bus1=358.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+
+//estacionamento dos pavilhões de aula itec
+New Load.339epl1 Bus1=339.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.339epl2 Bus1=339.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.339epl3 Bus1=339.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+
+//estacionamento do laboratório de engenharia civil
+New Load.310epl1 Bus1=310.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.310epl2 Bus1=310.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.310epl3 Bus1=310.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+
+//estacionamento do projeto newton 
+New Load.317epl1 Bus1=317.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.317epl2 Bus1=317.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.317epl3 Bus1=317.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+
+//estacionamento do laboratório de engenharia química e arquitetura
+New Load.323epl1 Bus1=323.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.323epl2 Bus1=323.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.323epl3 Bus1=323.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+/*
+//estacionamento dos pavilhões de aula humanas 2
+New Load.352epl4 Bus1=352.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.352epl5 Bus1=352.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.352epl6 Bus1=352.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+
+//estacionamento do itec 2
+New Load.358epl4 Bus1=358.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.358epl5 Bus1=358.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.358epl6 Bus1=358.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+
+//estacionamento dos pavilhões de aula itec 2
+New Load.339epl4 Bus1=339.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.339epl5 Bus1=339.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.339epl6 Bus1=339.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+
+//estacionamento do laboratório de engenharia civil 2
+New Load.310epl4 Bus1=310.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.310epl5 Bus1=310.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.310epl6 Bus1=310.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+
+//estacionamento do projeto newton 2
+New Load.317epl4 Bus1=317.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.317epl5 Bus1=317.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.317epl6 Bus1=317.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+
+//estacionamento do laboratório de engenharia química e arquitetura 2
+New Load.323epl4 Bus1=323.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.323epl5 Bus1=323.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.323epl6 Bus1=323.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+
+//estacionamento dos pavilhões de aula humanas 3
+New Load.352epl7 Bus1=352.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.352epl8 Bus1=352.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.352epl9 Bus1=352.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+
+//estacionamento do itec 3
+New Load.358epl7 Bus1=358.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.358epl8 Bus1=358.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.358epl9 Bus1=358.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+
+//estacionamento dos pavilhões de aula itec 3
+New Load.339epl7 Bus1=339.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.339epl8 Bus1=339.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.339epl9 Bus1=339.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+
+//estacionamento do laboratório de engenharia civil 3
+New Load.310epl7 Bus1=310.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.310epl8 Bus1=310.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.310epl9 Bus1=310.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+
+//estacionamento do projeto newton 3
+New Load.317epl7 Bus1=317.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.317epl8 Bus1=317.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.317epl9 Bus1=317.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+
+//estacionamento do laboratório de engenharia química e arquitetura 3
+New Load.323epl7 Bus1=323.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.323epl8 Bus1=323.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.323epl9 Bus1=323.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+
+//estacionamento dos pavilhões de aula humanas 4
+New Load.352epl10 Bus1=352.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.352epl11 Bus1=352.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.352epl12 Bus1=352.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+
+//estacionamento do itec 4
+New Load.358epl10 Bus1=358.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.358epl11 Bus1=358.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.358epl12 Bus1=358.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+
+//estacionamento dos pavilhões de aula itec 4
+New Load.339epl10 Bus1=339.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.339epl11 Bus1=339.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.339epl12 Bus1=339.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+
+//estacionamento do laboratório de engenharia civil 4
+New Load.310epl10 Bus1=310.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.310epl11 Bus1=310.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.310epl12 Bus1=310.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+
+//estacionamento do projeto newton 4
+New Load.317epl10 Bus1=317.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.317epl11 Bus1=317.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.317epl12 Bus1=317.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+
+//estacionamento do laboratório de engenharia química e arquitetura 4
+New Load.323epl10 Bus1=323.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.323epl11 Bus1=323.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.323epl12 Bus1=323.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+*/

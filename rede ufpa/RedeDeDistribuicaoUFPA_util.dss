@@ -1,0 +1,119 @@
+!Modelagem da rede de Distribuicao da Universidade Federal do Para Versão 1.0
+!Por Vinicius Borges Andrade em 30/01/2020
+
+clear
+!Cabine de medicao da UFPA como a barra de referencia da Rede
+new circuit.UFPA basekv=13.8 pu=1.0001 phases=3 bus1=BarraZero
+
+////////////////////////redirecionar os cabos da rede da UFPA/////////////
+
+redirect cabos.dss
+
+//Redireciona para as curvas de carregamento dos eletropostos -> Trabalho de conclusão de curso -> curvas preenchidas
+redirect curvadecargaeletropostostcc.dss
+
+//Redireciona para as curvas de carregamento dos eletropostos -> curvas modificadas
+//redirect curvadecargaeletropostos.dss
+
+//Redireciona para as cargas VEs dos eletropostos -> P e Q  modificados 
+redirect cargaeletropostotcc.dss
+
+//Redireciona para as cargas VEs dos eletropostos -> P e Q preenchidos
+//redirect cargaeletropostotcc2.dss
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Simulação->Cada um dos 19 eletropostos tem um VE carregando->Redirecionar para as cargas dos eletropostos->cria somente os loads
+//VEs com 22kw:
+//redirect cargaeletroposto.dss
+//VEs com 80kw:
+//redirect cargaeletroposto80kw.dss
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+////////////////////Redireciona os Alimentadores////////////////////
+
+!Redireciona para as curvas de cargas para os eletropostos
+//redirect eletropostos_util.dss
+
+!Redireciona o Alimentador I (Basico I)
+redirect BasicoI_util.dss
+
+!Redireciona o Alimentador II (Basico II)
+redirect BasicoII_util.dss
+
+!Redireciona o Alimentador III (Profissional)
+redirect Profissional_util.dss
+
+!Redireciona o Alimentador IV (Saude)
+redirect Saude_util.dss
+
+!Redireciona SFV CEAMAZON 01,02 E 03
+//redirect CEAMAZON01_02_03.dss
+
+!Redireciona para os traformadores dos eletropostos
+redirect trafodoseletropostos.dss
+
+!Redireciona para as placas fotovoltaicas
+//redirect redefotovoltaica.dss
+
+!Redireciona para o unico eletroposto
+//redirect unicoeletroposto.dss
+
+//////////////////////Resolucao do Fluxo de Carga////////////////
+
+!FLUXO DE CARGA
+Set Voltagebases=[13.8, 0.22, 0.127]
+CalcVoltageBases
+
+/*
+New monitor.linha4_power element=line.AL400401 terminal=1 mode=1 ppolar=no
+New monitor.linha4_voltage element=line.AL400401 terminal=1 mode=0
+New monitor.linha4_loss element=line.AL400401 terminal=1 mode=9
+New monitor.linha1_power element=line.AL100101 terminal=1 mode=1 ppolar=no
+New monitor.linha1_voltage element=line.AL100101 terminal=1 mode=0
+New monitor.linha1_loss element=line.AL100101 terminal=1 mode=9 
+New monitor.linha2_power element=line.AL200201 terminal=1 mode=1 ppolar=no
+New monitor.linha2_voltage element=line.AL200201 terminal=1 mode=0 
+New monitor.linha2_loss element=line.AL200201 terminal=1 mode=9
+New monitor.linha3_power element=line.AL300301 terminal=1 mode=1 ppolar=no
+New monitor.linha3_voltage element=line.AL300301 terminal=1 mode=0
+New monitor.linha3_loss element=line.AL300301 terminal=1 mode=9
+
+New EnergyMeter.Meterbasico1 Element=line.AL100101 terminal=1
+New EnergyMeter.Meterbasico2 Element=line.AL200201 terminal=1
+New EnergyMeter.Meterprofissional Element=line.AL300301 terminal=1
+New EnergyMeter.Metersaude Element=line.AL400401 terminal=1
+*/
+
+New monitor.linhaprimaria_power element=line.LinhaPrimaria terminal=1 mode=1 ppolar=no
+New monitor.linhaprimaria_voltage element=line.LinhaPrimaria terminal=1 mode=0
+New monitor.linhaprimaria_loss element=line.LinhaPrimaria terminal=1 mode=9
+
+New EnergyMeter.Meterlinhaprimaria Element=line.LinhaPrimaria terminal=1
+
+!Redireciona para o monitores dos eletropostos
+//redirect monitores_eletroposto.dss
+
+!time series
+set controlmode=time
+set mode = daily
+set stepsize=10m
+//set number=144
+//Solve
+
+!redireciona para o exportador de dados dos monitores dos eletropostos
+//redirect exportdata.dss
+
+/*
+export monitor object=linha1_power
+export monitor object=linha2_power
+export monitor object=linha3_power
+export monitor object=linha4_power
+export monitor object=linha1_voltage
+export monitor object=linha2_voltage
+export monitor object=linha3_voltage
+export monitor object=linha4_voltage
+export monitor object=linhaprimaria_power
+export monitor object=linhaprimaria_voltage
+*/
+
+BusCoords coordenadas.csv

@@ -1,0 +1,398 @@
+
+!Curvas de Carga do Alimentador III da UFPA (Profissional)
+
+//curvas de carGa P e Q para cada fase do Ampliação de Eng Sanitaria e Ambiental Baseado na Nutrição
+new loadshape.Amplambiental1 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=1, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=1, header=no)
+
+new loadshape.Amplambiental2 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=2, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=2, header=no)
+
+new loadshape.Amplambiental3 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=3, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=3, header=no)
+
+//curvas de carga P e Q para cada fase da Ambiental  Baseado no ICED 
+new loadshape.Ambiental1 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=1, header=no)
+~ Qmult=(file=QICED_util.csv, column=1, header=no)
+
+new loadshape.Ambiental2 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=2, header=no)
+~ Qmult=(file=QICED_util.csv, column=2, header=no)
+
+new loadshape.Ambiental3 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=3, header=no)
+~ Qmult=(file=QICED_util.csv, column=3, header=no)
+
+//curvas de carGa P e Q para cada fase do FAVI Baseado na Nutrição 
+new loadshape.FavI1 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=1, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=1, header=no)
+
+new loadshape.FavI2 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=2, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=2, header=no)
+
+new loadshape.FavI3 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=3, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=3, header=no)
+
+//curvas de carGa P e Q para cada fase do FAVII Baseado na Nutrição
+new loadshape.FavII1 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=1, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=1, header=no)
+
+new loadshape.FavII2 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=2, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=2, header=no)
+
+new loadshape.FavII3 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=3, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=3, header=no)
+
+//curvas de carga P e Q para cada fase do PGITECI  Baseado no ICED 
+new loadshape.PGITECI1 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=1, header=no)
+~ Qmult=(file=QICED_util.csv, column=1, header=no)
+
+new loadshape.PGITECI2 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=2, header=no)
+~ Qmult=(file=QICED_util.csv, column=2, header=no)
+
+new loadshape.PGITECI3 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=3, header=no)
+~ Qmult=(file=QICED_util.csv, column=3, header=no)
+
+//curvas de carga P e Q para cada fase do PGITECII  Baseado no ICED
+new loadshape.PGITECII1 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=1, header=no)
+~ Qmult=(file=QICED_util.csv, column=1, header=no)
+
+new loadshape.PGITECII2 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=2, header=no)
+~ Qmult=(file=QICED_util.csv, column=2, header=no)
+
+new loadshape.PGITECII3 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=3, header=no)
+~ Qmult=(file=QICED_util.csv, column=3, header=no)
+
+//curvas de carGa P e Q para cada fase da Incubadora Baseado na Nutrição
+new loadshape.Incubadora1 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=1, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=1, header=no)
+
+new loadshape.Incubadora2 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=2, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=2, header=no)
+
+new loadshape.Incubadora3 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=3, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=3, header=no)
+
+//curvas de carGa P e Q para cada fase do MestradoQuimica Baseado na Nutrição
+new loadshape.Mestradoquimica1 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=1, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=1, header=no)
+
+new loadshape.Mestradoquimica2 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=2, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=2, header=no)
+
+new loadshape.Mestradoquimica3 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=3, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=3, header=no)
+
+//curvas de carga P e Q para cada fase da Arquitetura um dia da semana
+new loadshape.Arquitetura1 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=1, header=no)
+~ Qmult=(file=Qarquitetura_util.csv, column=1, header=no)
+
+new loadshape.Arquitetura2 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=2, header=no)
+~ Qmult=(file=Qarquitetura_util.csv, column=2, header=no)
+
+new loadshape.Arquitetura3 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=3, header=no)
+~ Qmult=(file=Qarquitetura_util.csv, column=3, header=no)
+
+//curvas de carga P e Q para cada fase de FacEngQuimicaI Baseado na Arquitetura
+new loadshape.FacEngQuimicaI1 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=1, header=no)
+~ Qmult=(file=Qarquitetura_util.csv, column=1, header=no)
+
+new loadshape.FacEngQuimicaI2 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=2, header=no)
+~ Qmult=(file=Qarquitetura_util.csv, column=2, header=no)
+
+new loadshape.FacEngQuimicaI3 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=3, header=no)
+~ Qmult=(file=Qarquitetura_util.csv, column=3, header=no)
+
+//curvas de carga P e Q para cada fase de FacEngQuimicaII Baseado na Arquitetura
+new loadshape.FacEngQuimicaII1 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=1, header=no)
+~ Qmult=(file=Qarquitetura_util.csv, column=1, header=no)
+
+new loadshape.FacEngQuimicaII2 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=2, header=no)
+~ Qmult=(file=Qarquitetura_util.csv, column=2, header=no)
+
+new loadshape.FacEngQuimicaII3 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=3, header=no)
+~ Qmult=(file=Qarquitetura_util.csv, column=3, header=no)
+
+//curvas de carGa P e Q para cada fase do NovaProfissional Baseado na Nutrição
+new loadshape.NovaProfissional1 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=1, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=1, header=no)
+
+new loadshape.NovaProfissional2 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=2, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=2, header=no)
+
+new loadshape.NovaProfissional3 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=3, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=3, header=no)
+
+//curvas de carga P e Q para cada fase do LabCivil Baseado na Arquitetura
+new loadshape.LabCivil1 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=1, header=no)
+~ Qmult=(file=Qarquitetura_util.csv, column=1, header=no)
+
+new loadshape.LabCivil2 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=2, header=no)
+~ Qmult=(file=Qarquitetura_util.csv, column=2, header=no)
+
+new loadshape.LabCivil3 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=3, header=no)
+~ Qmult=(file=Qarquitetura_util.csv, column=3, header=no)
+
+//curvas de carGa P e Q para cada fase do SalasdeaulaIProfissional Baseado na Nutrição
+new loadshape.SalasdeaulaIProfissional1 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=1, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=1, header=no)
+
+new loadshape.SalasdeaulaIProfissional2 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=2, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=2, header=no)
+
+new loadshape.SalasdeaulaIProfissional3 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=3, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=3, header=no)
+
+
+//curvas de carga P e Q para cada fase do ChaleDeFerro baseada na Nutrição
+new loadshape.ChaleDeFerro1 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=1, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=1, header=no)
+
+new loadshape.ChaleDeFerro2 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=2, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=2, header=no)
+
+new loadshape.ChaleDeFerro3 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=3, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=3, header=no)
+
+//curvas de carga P e Q para cada fase do TrataDeAgua Baseado na Arquitetura
+new loadshape.TrataDeAgua1 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=1, header=no)
+~ Qmult=(file=Qarquitetura_util.csv, column=1, header=no)
+
+new loadshape.TrataDeAgua2 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=2, header=no)
+~ Qmult=(file=Qarquitetura_util.csv, column=2, header=no)
+
+new loadshape.TrataDeAgua3 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=3, header=no)
+~ Qmult=(file=Qarquitetura_util.csv, column=3, header=no)
+
+//curvas de carga P e Q para cada fase da Mecanica baseada no ICED
+new loadshape.Mecanica1 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=1, header=no)
+~ Qmult=(file=QICED_util.csv, column=1, header=no)
+
+new loadshape.Mecanica2 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=2, header=no)
+~ Qmult=(file=QICED_util.csv, column=2, header=no)
+
+new loadshape.Mecanica3 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=3, header=no)
+~ Qmult=(file=QICED_util.csv, column=3, header=no)
+
+
+
+//curvas de carga P e Q para cada fase do ProxMGabinetes baseada na Nutrição
+new loadshape.ProxMGabinetes1 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=1, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=1, header=no)
+
+new loadshape.ProxMGabinetes2 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=2, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=2, header=no)
+
+new loadshape.ProxMGabinetes3 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=3, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=3, header=no)
+
+//curvas de carga P e Q para cada fase da Eng Elétrica Baseado Nutrição
+new loadshape.EngEletrica1 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=1, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=1, header=no)
+
+new loadshape.EngEletrica2 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=2, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=2, header=no)
+
+new loadshape.EngEletrica3 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=3, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=3, header=no)
+
+
+//curvas de carga P e Q para cada fase do Lab de Elétrica Baseado Nutrição
+new loadshape.LabdeEletrica1 npts=144 minterval=10
+~ Pmult=(file=Plabeletrica_util.csv, column=1, header=no)
+~ Qmult=(file=Qlabeletrica_util.csv, column=1, header=no)
+
+new loadshape.LabdeEletrica2 npts=144 minterval=10
+~ Pmult=(file=Plabeletrica_util.csv, column=2, header=no)
+~ Qmult=(file=Qlabeletrica_util.csv, column=2, header=no)
+
+new loadshape.LabdeEletrica3 npts=144 minterval=10
+~ Pmult=(file=Plabeletrica_util.csv, column=3, header=no)
+~ Qmult=(file=Qlabeletrica_util.csv, column=3, header=no)
+
+
+//curvas de carga P e Q para cada fase do BlocoEp Baseado na Arquitetura
+new loadshape.BlocoEp1 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=1, header=no)
+~ Qmult=(file=Qarquitetura_util.csv, column=1, header=no)
+
+new loadshape.BlocoEp2 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=2, header=no)
+~ Qmult=(file=Qarquitetura_util.csv, column=2, header=no)
+
+new loadshape.BlocoEp3 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=3, header=no)
+~ Qmult=(file=Qarquitetura_util.csv, column=3, header=no)
+
+//curvas de carga P e Q para cada fase do Portão 3 baseada na Nutrição
+new loadshape.curva1Porta3 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=1, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=1, header=no)
+
+new loadshape.curva2Porta3 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=2, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=2, header=no)
+
+new loadshape.curva3Porta3 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=3, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=3, header=no)
+
+//curvas de carga P e Q para cada fase do RUprofissional baseada na Nutrição
+new loadshape.RUprofissional1 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=1, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=1, header=no)
+
+new loadshape.RUprofissional2 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=2, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=2, header=no)
+
+new loadshape.RUprofissional3 npts=144 minterval=10
+~ Pmult=(file=Pnutricao_util.csv, column=3, header=no)
+~ Qmult=(file=Qnutricao_util.csv, column=3, header=no)
+
+//curvas de carga P e Q para cada fase do ITEC Baseado no ICED
+new loadshape.ITEC1 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=1, header=no)
+~ Qmult=(file=QICED_util.csv, column=1, header=no)
+
+new loadshape.ITEC2 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=2, header=no)
+~ Qmult=(file=QICED_util.csv, column=2, header=no)
+
+new loadshape.ITEC3 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=3, header=no)
+~ Qmult=(file=QICED_util.csv, column=3, header=no)
+
+//curvas de carga P e Q para cada fase do ICED 
+new loadshape.ICED1 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=1, header=no)
+~ Qmult=(file=QICED_util.csv, column=1, header=no)
+
+new loadshape.ICED2 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=2, header=no)
+~ Qmult=(file=QICED_util.csv, column=2, header=no)
+
+new loadshape.ICED3 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=3, header=no)
+~ Qmult=(file=QICED_util.csv, column=3, header=no)
+
+//curvas de carga P e Q para cada fase do SalasdeAulasIIProfissional Baseado na Arquitetura
+new loadshape.SalasdeAulasIIProfissional1 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=1, header=no)
+~ Qmult=(file=Qarquitetura_util.csv, column=1, header=no)
+
+new loadshape.SalasdeAulasIIProfissional2 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=2, header=no)
+~ Qmult=(file=Qarquitetura_util.csv, column=2, header=no)
+
+new loadshape.SalasdeAulasIIProfissional3 npts=144 minterval=10
+~ Pmult=(file=Parquitetura_util.csv, column=3, header=no)
+~ Qmult=(file=Qarquitetura_util.csv, column=3, header=no)
+
+//curvas de carga P e Q para cada fase do AmplICED baseado no ICED
+new loadshape.AmplICED1 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=1, header=no)
+~ Qmult=(file=QICED_util.csv, column=1, header=no)
+
+new loadshape.AmplICED2 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=2, header=no)
+~ Qmult=(file=QICED_util.csv, column=2, header=no)
+
+new loadshape.AmplICED3 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=3, header=no)
+~ Qmult=(file=QICED_util.csv, column=3, header=no)
+
+//curvas de carga P e Q para cada fase do ICSA baseado no ICED
+new loadshape.ICSA1 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=1, header=no)
+~ Qmult=(file=QICED_util.csv, column=1, header=no)
+
+new loadshape.ICSA2 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=2, header=no)
+~ Qmult=(file=QICED_util.csv, column=2, header=no)
+
+new loadshape.ICSA3 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=3, header=no)
+~ Qmult=(file=QICED_util.csv, column=3, header=no)
+
+//curvas de carga P e Q para cada fase do NAEA baseado no ICED 
+new loadshape.NAEA1 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=1, header=no)
+~ Qmult=(file=QICED_util.csv, column=1, header=no)
+
+new loadshape.NAEA2 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=2, header=no)
+~ Qmult=(file=QICED_util.csv, column=2, header=no)
+
+new loadshape.NAEA3 npts=144 minterval=10
+~ Pmult=(file=PICED_util.csv, column=3, header=no)
+~ Qmult=(file=QICED_util.csv, column=3, header=no)
+
+
+//curvas de carga P e Q para cada fase do ICJ baseado no ICED
+new loadshape.ICJ1 npts=144 minterval=10
+~ mult=(file=PICED_util.csv, column=1, header=no)
+~ Qmult=(file=QICED_util.csv, column=1, header=no)
+
+new loadshape.ICJ2 npts=144 minterval=10
+~ mult=(file=PICED_util.csv, column=2, header=no)
+~ Qmult=(file=QICED_util.csv, column=2, header=no)
+
+new loadshape.ICJ3 npts=144 minterval=10
+~ mult=(file=PICED_util.csv, column=3, header=no)
+~ Qmult=(file=QICED_util.csv, column=3, header=no)

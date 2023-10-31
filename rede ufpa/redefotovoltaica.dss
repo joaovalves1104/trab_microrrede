@@ -1,0 +1,36 @@
+//curva Potencia de entrada pela temperatura,BYD 335wp///////
+new XYcurve.MyPvsT npts=138 xarray=(file=11TempDeCelula.csv) yarray=(file=11PvTBYD.csv)
+
+//INVERSORES
+//curva de eficiencia do inversor SMA 50kW @Vnom 
+new XYcurve.EficienciaSMA npts=6 xarray=[0.1 0.2 0.3 0.5 0.75 1] yarray=[0.9646 0.9775 0.9813 0.9822 0.9808 0.9786]
+
+//curva de eficiencia do inversor Fronius 15kW @Vnom 
+new XYcurve.EficienciaFronius npts=6 xarray=[0.1 0.2 0.3 0.5 0.75 1] yarray=[0.953 0.964 0.966 0.967 0.965 0.962]
+
+//curva de eficiencia do inversor QUATTRO DA VICTRON 10kW @eficiencia Máxima 
+new XYcurve.EficienciaQUATTRO npts=6 xarray=[0.1 0.2 0.3 0.5 0.75 1] yarray=[0.96 0.96 0.96 0.96 0.96 0.96]
+
+//curva de irradiancia normalizada
+new LoadShape.CurvadeIrrad npts=138 minterval=10 
+~ mult=(file=11irradnorm.csv)
+
+//associda a definição de temperatura diaria no painel
+new TShape.Temperatura npts=138 minterval=10
+~ temp=(file=11TempDeCelula.csv)
+
+!Conjunto de Paineis  CEAMAZON01 162 módulos de 335wp
+new PVSystem.CEAMAZON01 phases=3 bus1=476eletabc kv=0.220 irrad=1.049 pmpp=54.270  pf=1 kva=55 
+~ conn=delta %cutin=0.1 %cutout=0.1 effcurve=EficienciaSMA P-TCurve=MyPvsT Daily=CurvadeIrrad Tdaily=Temperatura
+
+!Conjunto de Paineis  CEAMAZON01 48 módulos de 335wp
+new PVSystem.CEAMAZON02 phases=3 bus1=476eletabc kv=0.220 irrad=1.049 pmpp=16.08  pf=1 kva=17 
+~ conn=delta %cutin=0.1 %cutout=0.1 effcurve=EficienciaFronius P-TCurve=MyPvsT Daily=CurvadeIrrad Tdaily=Temperatura
+
+!Conjunto de Paineis  CEAMAZON01 24 módulos de 335wp
+new PVSystem.CEAMAZON03 phases=3 bus1=476eletabc kv=0.220 irrad=1.049 pmpp=8.04  pf=1 kva=10 
+~ conn=delta %cutin=0.1 %cutout=0.1 effcurve=EficienciaQUATTRO P-TCurve=MyPvsT Daily=CurvadeIrrad Tdaily=Temperatura
+
+New monitor.eletropostoceamazon_power element=transformer.trafoeletroposto1 terminal=1 mode=1 ppolar=no
+New monitor.eletropostoceamazon_voltage element=transformer.trafoeletroposto1 terminal=1 mode=0
+New monitor.eletropostoceamazon_loss element=transformer.trafoeletroposto1 terminal=1 mode=9

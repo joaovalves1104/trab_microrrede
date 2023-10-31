@@ -1,0 +1,243 @@
+
+!definindo a geometrica do poste do Tipo N (barra) 1=A, 2=B E 3=C
+/*new linegeometry.PN nconds=3 nphases=3
+~cond=1 Wire=Phase X=0.9 H=11 units=m
+~cond=2 Wire=Phase X=-0.3 H=11 units=m
+~cond=3 Wire=Phase X=-0.9 H=11 units=m
+
+!definindo a geometrica do poste do Tipo CL (barra) 1=A, 2=B E 3=C
+new linegeometry.PCL nconds=3 nphases=3
+~cond=1 Wire=Phase X=0.22 H=11 units=m
+~cond=2 Wire=Phase X=0.15 H=10.85 units=m
+~cond=3 Wire=Phase X=0.08 H=11 units=m
+
+!definindo a geometrica do poste do Tipo CC (barra) 1=A, 2=B E 3=C
+new linegeometry.PCC nconds=3 nphases=3
+~cond=1 Wire=Phase X=0.3 H=11 units=m
+~cond=2 Wire=Phase X=0.225 H=10.85 units=m
+~cond=3 Wire=Phase X=0.15 H=11 units=m
+
+!definindo a geometrica do poste do Tipo CU (barra) 1=A, 2=B E 3=C
+new linegeometry.PCU nconds=3 nphases=3
+~cond=1 Wire=Phase X=0.5 H=11 units=m
+~cond=2 Wire=Phase X=0.0 H=10.85 units=m
+~cond=3 Wire=Phase X=-0.5 H=11 units=m
+
+
+!definindo a geometrica do poste do Tipo CJ (barra) 1=A, 2=B E 3=C
+new linegeometry.PCJ nconds=3 nphases=3
+~cond=1 Wire=Phase X=1.32 H=11 units=m
+~cond=2 Wire=Phase X=1.25 H=10.85 units=m
+~cond=3 Wire=Phase X=1.18 H=11 units=m
+*/
+
+
+
+!Percurso entre a barra Referencia e 401 com cabo 95 subterraneo
+new linegeometry.400401 nconds=3 nphases=3
+~ cond=1 Wire=#95 X=0.5 H=0.001 units=m
+~ cond=2 Wire=#95 X=0.0 H=.001 units=m
+~ cond=3 Wire=#95 X=-0.5 H=.001 units=m
+
+!Percuso entre a barra 401 e 402 com cabo 95 com perfil em C 11 metros
+new linegeometry.401402 nconds=3 nphases=3
+~ cond=1 Wire=#95 X=0.3 H=11 units=m
+~ cond=2 Wire=#95 X=0.225 H=10.85 units=m
+~ cond=3 Wire=#95 X=0.15 H=11 units=m
+
+!Repete o percurso com cabo 95 com perfil em C 11 metros
+new linegeometry.402403 like=401402
+
+!Percuso entre a barra 403 e 404 com cabo 95 com perfil em L em 11 metros
+new linegeometry.403404 nconds=3 nphases=3
+~ cond=1 Wire=#95 X=0.22 H=11 units=m
+~ cond=2 Wire=#95 X=0.15 H=10.85 units=m
+~ cond=3 Wire=#95 X=0.08 H=11 units=m
+
+!Repete o percurso com cabo 95 com perfil em L em 11 metros
+new linegeometry.404405 like=403404
+new linegeometry.405406 like=403404
+new linegeometry.406407 like=403404
+
+!Repete o percurso com cabo 95 com perfil em C 11 metros
+new linegeometry.407408 like=401402
+
+!Repete o percurso com cabo 95 com perfil em L em 11 metros
+new linegeometry.408409 like=403404
+new linegeometry.409410 like=403404
+new linegeometry.410411 like=403404
+
+!Repete o percurso com cabo 95 com perfil em C 11 metros
+new linegeometry.411412 like=401402
+new linegeometry.412413 like=401402
+new linegeometry.413414 like=401402
+
+!Repete o percurso com cabo 95 com perfil em L em 11 metros
+new linegeometry.414415 like=403404
+
+!Repete o percurso com cabo 95 com perfil em C 11 metros
+new linegeometry.415416 like=401402
+new linegeometry.416417 like=401402
+
+!Repete o percurso com cabo 95 com perfil em L em 11 metros
+new linegeometry.417418 like=403404
+new linegeometry.418419 like=403404
+new linegeometry.419420 like=403404
+new linegeometry.420421 like=403404
+
+!Percuso entre a barra 421 e 422 com cabo 50 com perfil em U 11 metros
+new linegeometry.421422 nconds=3 nphases=3
+~ cond=1 Wire=#50 X=0.5 H=11 units=m
+~ cond=2 Wire=#50 X=0.0 H=10.85 units=m
+~ cond=3 Wire=#50 X=-0.5 H=11 units=m
+
+!Percuso entre a barra 422 e 423 com cabo 50 com perfil em L em 11 metros
+new linegeometry.422423 nconds=3 nphases=3
+~ cond=1 Wire=#50 X=0.22 H=11 units=m
+~ cond=2 Wire=#50 X=0.15 H=10.85 units=m
+~ cond=3 Wire=#50 X=0.08 H=11 units=m
+
+!Repete o percurso com cabo 50 com perfil em L em 11 metros
+new linegeometry.423424 like=422423
+
+!Percuso entre a barra 424 e 425 com cabo 50 com perfil em C 11 metros
+new linegeometry.424425 nconds=3 nphases=3
+~ cond=1 Wire=#50 X=0.3 H=11 units=m
+~ cond=2 Wire=#50 X=0.225 H=10.85 units=m
+~ cond=3 Wire=#50 X=0.15 H=11 units=m
+
+!Percuso entre a barra 425 e 426 com cabo 1/0 com perfil em N 11 metros
+new linegeometry.425426 nconds=3 nphases=3
+~ cond=1 Wire=#1/0 X=0.9 H=11 units=m
+~ cond=2 Wire=#1/0 X=-0.3 H=11 units=m
+~ cond=3 Wire=#1/0 X=-0.9 H=11 units=m
+
+!Repete o percurso com cabo 1/0 com perfil em N em 11 metros
+new linegeometry.426427 like=425426
+new linegeometry.427428 like=425426
+new linegeometry.428429 like=425426
+new linegeometry.429430 like=425426
+new linegeometry.430431 like=425426
+new linegeometry.431432 like=425426
+new linegeometry.432433 like=425426
+new linegeometry.433434 like=425426
+new linegeometry.434435 like=425426
+new linegeometry.435436 like=425426
+new linegeometry.436437 like=425426
+new linegeometry.437438 like=425426
+new linegeometry.436439 like=425426
+new linegeometry.439440 like=425426
+new linegeometry.440441 like=425426
+
+!Repete o percurso com cabo com cabo 50 com perfil em C 11 metros
+new linegeometry.425442 like=424425
+
+!Percuso entre a barra 442 e 443 com cabo 35 com perfil em U 11 metros
+new linegeometry.442443 nconds=3 nphases=3
+~ cond=1 Wire=#35 X=0.5 H=11 units=m
+~ cond=2 Wire=#35 X=0.0 H=10.85 units=m
+~ cond=3 Wire=#35 X=-0.5 H=11 units=m
+
+!Percuso entre a barra 443 e 444 com cabo 35 com perfil em L em 11 metros
+new linegeometry.443444 nconds=3 nphases=3
+~ cond=1 Wire=#35 X=0.22 H=11 units=m
+~ cond=2 Wire=#35 X=0.15 H=10.85 units=m
+~ cond=3 Wire=#35 X=0.08 H=11 units=m
+
+!Repete o percurso com cabo com cabo 35 com perfil em L 11 metros
+new linegeometry.444445 like=443444
+
+!Repete o percurso com o cabo 50 com perfil em L 11 metros
+new linegeometry.442446 like=422423
+new linegeometry.446447 like=422423
+new linegeometry.447448 like=422423
+new linegeometry.448449 like=422423
+
+!Percuso entre a barra 449 e 449a com cabo 35 com perfil subterraneo
+new linegeometry.449449a nconds=3 nphases=3
+~ cond=1 Wire=#35 X=0.5 H=0.001 units=m
+~ cond=2 Wire=#35 X=0.0 H=.001 units=m
+~ cond=3 Wire=#35 X=-0.5 H=.001 units=m
+
+new linegeometry.449450 like=422423
+
+!Repete o percurso com cabo 1/0 com perfil em N em 11 metros
+new linegeometry.450451 like=425426
+new linegeometry.451452 like=425426
+new linegeometry.452453 like=425426
+new linegeometry.453454 like=425426
+new linegeometry.453455 like=425426
+new linegeometry.455456 like=425426
+new linegeometry.456457 like=425426
+new linegeometry.456458 like=425426
+new linegeometry.458459 like=425426
+new linegeometry.459460 like=425426
+new linegeometry.460461 like=425426
+new linegeometry.461462 like=425426
+
+!Repete o percurso com o cabo 50 com perfil em L 11 metros
+new linegeometry.450463 like=422423
+new linegeometry.463464 like=422423
+new linegeometry.463464 like=422423
+
+!Repete o percurso com o cabo 35 com perfil em L 11 metros
+new linegeometry.464465 like=443444
+
+!Repete o percurso com cabo 1/0 com perfil em N em 11 metros
+new linegeometry.464466 like=425426
+new linegeometry.466467 like=425426
+new linegeometry.467468 like=425426
+
+!Repete o percurso com cabo 35 com perfil em U em 11 metros
+new linegeometry.468469 like=442443
+
+!Repete o percurso com cabo 1/0 com perfil em N em 11 metros
+new linegeometry.468470 like=425426
+
+!Repete o percurso com cabo 35 com perfil em U em 11 metros
+new linegeometry.470471 like=442443
+
+!Repete o percurso com cabo 1/0 com perfil em N em 11 metros
+new linegeometry.470472 like=425426
+new linegeometry.472473 like=425426
+new linegeometry.473474 like=425426
+new linegeometry.474475 like=425426
+new linegeometry.475476 like=425426
+new linegeometry.476477 like=425426
+
+!Repete o percurso com cabo 35 com perfil em U em 11 metros
+new linegeometry.475478 like=442443
+
+!Repete o percurso com o cabo 35 com perfil em L 11 metros
+new linegeometry.478479 like=443444
+
+!Repete o percurso com cabo 35 com perfil em U em 11 metros
+new linegeometry.479480 like=442443
+new linegeometry.480481 like=442443
+
+!Repete o percurso com o cabo 35 com perfil em L 11 metros
+new linegeometry.481482 like=443444
+
+!Percuso entre a barra 482 e 483 com cabo 35 com perfil em C em 11 metros
+new linegeometry.482483 nconds=3 nphases=3
+~ cond=1 Wire=#35 X=0.3 H=11 units=m
+~ cond=2 Wire=#35 X=0.225 H=10.85 units=m
+~ cond=3 Wire=#35 X=0.15 H=11 units=m
+
+!Repete o percurso com cabo 35 com perfil em U em 11 metros
+new linegeometry.483484 like=442443
+
+!Repete o percurso com o cabo 35 com perfil em L 11 metros
+new linegeometry.484485 like=443444
+new linegeometry.485486 like=443444
+
+!Repete o percurso com cabo 35 com perfil em U em 11 metros
+new linegeometry.486487 like=442443
+
+!Repete o percurso com o cabo 35 com perfil em L 11 metros
+new linegeometry.487488 like=443444
+
+!Repete o percurso com cabo 35 com perfil em U em 11 metros
+new linegeometry.488489 like=442443
+
+

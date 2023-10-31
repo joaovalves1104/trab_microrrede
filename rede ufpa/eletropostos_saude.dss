@@ -1,0 +1,68 @@
+//estacionamento ceamazon
+New Load.476epl1 Bus1=476.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC15
+New Load.476epl2 Bus1=476.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC25
+New Load.476epl3 Bus1=476.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC35
+/*
+New Load.476epl4 Bus1=476.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.476epl5 Bus1=476.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.476epl6 Bus1=476.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+
+New Load.476epl7 Bus1=476.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.476epl8 Bus1=476.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.476epl9 Bus1=476.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+
+New Load.476epl10 Bus1=476.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.476epl11 Bus1=476.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.476epl12 Bus1=476.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+*/
+//estacionamento lasse
+New Load.485epl1 Bus1=485.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.485epl2 Bus1=485.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.485epl3 Bus1=485.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+/*
+New Load.485epl4 Bus1=485.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.485epl5 Bus1=485.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.485epl6 Bus1=485.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+
+New Load.485epl7 Bus1=485.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.485epl8 Bus1=485.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.485epl9 Bus1=485.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+
+New Load.485epl10 Bus1=485.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.485epl11 Bus1=485.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.485epl12 Bus1=485.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+*/
+//estacionamento gedae 
+New Load.452epl1 Bus1=452.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.452epl2 Bus1=452.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.452epl3 Bus1=452.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+/*
+New Load.452epl4 Bus1=452.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.452epl5 Bus1=452.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.452epl6 Bus1=452.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+
+New Load.452epl7 Bus1=452.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.452epl8 Bus1=452.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.452epl9 Bus1=452.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+
+New Load.452epl10 Bus1=452.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.452epl11 Bus1=452.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.452epl12 Bus1=452.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+*/
+//estacionamento do laboratório de farmácia
+New Load.426epl1 Bus1=426.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.426epl2 Bus1=426.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.426epl3 Bus1=426.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+/*
+New Load.426epl4 Bus1=426.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.426epl5 Bus1=426.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.426epl6 Bus1=426.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+
+New Load.426epl7 Bus1=426.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.426epl8 Bus1=426.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.426epl9 Bus1=426.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+
+New Load.426epl10 Bus1=426.1 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.215979  kvar=2.050109  Vminpu=0.60 daily=EVC18
+New Load.426epl11 Bus1=426.2 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.381416 kvar=2.174864 Vminpu=0.60 daily=EVC28
+New Load.426epl12 Bus1=426.3 Phases=1 Conn=wye Model=1 kv=13.8 kw=26.277280  kvar=2.123696 Vminpu=0.60 daily=EVC38
+*/
